@@ -163,8 +163,8 @@ if (!class_exists('AF_themes_info')) {
         'newsphere', // Parent slug.
         __('Upgrade', 'newsphere'), // Page title.
         '<span id="aft-upgrade-menu-item">' . __('Upgrade', 'newsphere') .'</span>', // Menu title.
-        capability: 'manage_options', // Capability.
-        menu_slug: esc_url('https://afthemes.com/products/newsphere-pro/') // Menu slug.
+        'manage_options', // Capability.
+        esc_url('https://afthemes.com/products/newsphere-pro/') // Menu slug.
         
       );
     }
