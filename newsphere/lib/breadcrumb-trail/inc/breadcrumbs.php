@@ -161,7 +161,7 @@ class Breadcrumb_Trail
     /**
      * Formats the HTML output for the breadcrumb trail.
      *
-     * @since  0.6.0
+     * @since 0.6.0
      * @access public
      * @return string
      */
@@ -178,11 +178,10 @@ class Breadcrumb_Trail
 
             // Add 'browse' label if it should be shown.
             if (true === $this->args['show_browse']) {
-
                 $breadcrumb .= sprintf(
                     '<%1$s class="trail-browse">%2$s</%1$s>',
                     tag_escape($this->args['browse_tag']),
-                    $this->labels['browse']
+                    esc_html($this->labels['browse'])
                 );
             }
 
@@ -206,63 +205,51 @@ class Breadcrumb_Trail
                 preg_match('/(<a.*?>)(.*?)(<\/a>)/i', $item, $matches);
 
                 // Wrap the item text with appropriate itemprop.
-                $item = !empty($matches) ? sprintf('%s<span itemprop="name">%s</span>%s', $matches[1], $matches[2], $matches[3]) : sprintf('<span itemprop="name">%s</span>', $item);
+                $item = !empty($matches)
+                    ? sprintf('%s<span itemprop="name">%s</span>%s', $matches[1], esc_html($matches[2]), $matches[3])
+                    : sprintf('<span itemprop="name">%s</span>', esc_html($item));
 
-                // Wrap the item with its itemprop.
-
-                // If viewing a single post.
+                // Determine the item URL based on context and ensure multilingual compatibility.
+                $link_item = '';
                 if (is_singular() || is_page()) {
-
                     global $post;
-                    $link_item = get_permalink($post->ID);
+                    $link_item = urldecode(get_permalink($post->ID)); // Decode URL to handle special characters.
                 } elseif (is_archive() && (!is_day() && !is_month() && !is_year() && !is_tag())) {
-
                     $category = get_queried_object();
-
-                    if (class_exists('WooCommerce') && is_shop()) {
-                        $link_item = get_permalink(wc_get_page_id('shop'));
-                    } else {
-                        $link_item = get_category_link($category->term_id);
-                    }
+                    $link_item = urldecode(get_category_link($category->term_id));
                 } elseif (is_day()) {
-
-                    $link_item = get_day_link(get_the_time('Y'), get_the_time('m'), get_the_time('d'));
+                    $link_item = urldecode(get_day_link(get_the_time('Y'), get_the_time('m'), get_the_time('d')));
                 } elseif (is_month()) {
-
-                    $link_item = get_month_link(get_the_time('Y'), get_the_time('m'));
+                    $link_item = urldecode(get_month_link(get_the_time('Y'), get_the_time('m')));
                 } elseif (is_year()) {
-
-                    $link_item = get_year_link(get_the_time('Y'));
+                    $link_item = urldecode(get_year_link(get_the_time('Y')));
                 } elseif (is_tag()) {
-
                     $tag_id = get_queried_object()->term_id;
-                    $link_item = get_tag_link($tag_id);
+                    $link_item = urldecode(get_tag_link($tag_id));
                 } elseif (is_author()) {
-
-                    $link_item = get_author_posts_url(get_current_user_id());
+                    $link_item = urldecode(get_author_posts_url(get_current_user_id()));
                 } elseif (is_search()) {
-
-                    $link_item = home_url();
+                    $link_item = urldecode(home_url());
                 } else {
-
-                    $link_item = home_url();
+                    $link_item = urldecode(home_url());
                 }
 
+                // Build the breadcrumb item link.
                 $item = !empty($matches)
                     ? preg_replace('/(<a.*?)([\'"])>/i', '$1$2 itemprop=$2item$2>', $item)
-                    : sprintf('<a href="' . esc_url($link_item) . '" itemprop="item">%s</a>', $item);
+                    : sprintf('<a href="%s" itemprop="item">%s</a>', esc_url($link_item), $item);
 
                 // Add list item classes.
                 $item_class = 'trail-item';
 
-                if (1 === $item_position && 1 < $item_count)
+                if (1 === $item_position && 1 < $item_count) {
                     $item_class .= ' trail-begin';
-
-                elseif ($item_count === $item_position)
+                } elseif ($item_count === $item_position) {
                     $item_class .= ' trail-end';
+                }
 
                 // Create list item attributes.
-                $attributes = 'itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="' . $item_class . '"';
+                $attributes = 'itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="' . esc_attr($item_class) . '"';
 
                 // Build the meta position HTML.
                 $meta = sprintf('<meta itemprop="position" content="%s" />', absint($item_position));
@@ -288,12 +275,12 @@ class Breadcrumb_Trail
         // Allow developers to filter the breadcrumb trail HTML.
         $breadcrumb = apply_filters('breadcrumb_trail', $breadcrumb, $this->args);
 
-        if (false === $this->args['echo'])
+        if (false === $this->args['echo']) {
             return $breadcrumb;
+        }
 
         echo $breadcrumb;
     }
-
     /* ====== Protected Methods ====== */
 
     /**
