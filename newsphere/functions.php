@@ -381,9 +381,9 @@ function print_pre($args)
 
 }
 
-add_action( 'after_setup_theme', 'newsphere_transltion_init');
+add_action( 'init', 'newsphere_transltion_init');
 
 function newsphere_transltion_init() {
-    load_theme_textdomain( 'newsphere', false, get_template_directory()  . '/languages' );
+    load_theme_textdomain( 'newsphere', get_template_directory()  . '/languages' );
 }
 
