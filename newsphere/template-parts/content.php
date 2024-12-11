@@ -34,7 +34,9 @@
             <?php
             the_post_navigation(array(
                 'prev_text' => __('<span class="em-post-navigation">Previous</span> %title', 'newsphere'),
-                'next_text' => __('<span class="em-post-navigation">Next</span> %title', 'newsphere'),                
+                'next_text' => __('<span class="em-post-navigation">Next</span> %title', 'newsphere'),
+                //'in_same_term' => true,
+                //'taxonomy' => __('category', 'newsphere'),
                 'screen_reader_text' => __('Continue Reading', 'newsphere'),
             ));
             ?>

@@ -576,7 +576,7 @@ function newsphere_get_comments_count($post_id)
         if ( absint($comment_count) > 1):
         ?>
         <span class="min-read-post-comment">
-        <a href="<?php the_permalink(); ?>">
+        <a href="<?php the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($post_id));?>" >
             <?php echo get_comments_number($post_id); ?>
         </a>
         </span>

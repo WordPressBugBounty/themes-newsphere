@@ -261,6 +261,13 @@ $enable_sticky_header_option = newsphere_get_option('enable_sticky_header_option
 	if (is_singular() && comments_open() && get_option('thread_comments')) {
 		wp_enqueue_script('comment-reply');
 	}
+
+    if (is_rtl() && is_child_theme()) {
+        wp_enqueue_style(
+            'newsphere-rtl',
+            get_template_directory_uri() . '/rtl.css'
+        );
+    }
 }
 add_action('wp_enqueue_scripts', 'newsphere_scripts');
 
@@ -381,9 +388,9 @@ function print_pre($args)
 
 }
 
-add_action( 'init', 'newsphere_transltion_init');
+add_action( 'after_setup_theme', 'newsphere_transltion_init');
 
 function newsphere_transltion_init() {
-    load_theme_textdomain( 'newsphere', get_template_directory()  . '/languages' );
+    load_theme_textdomain( 'newsphere', false, get_template_directory()  . '/languages' );
 }
 
