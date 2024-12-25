@@ -21,11 +21,11 @@ if (!function_exists('newsphere_banner_featured_posts')):
     ?>
       <div class="af-main-banner-featured-posts featured-posts" dir="<?php echo esc_attr($dir); ?>">
         <?php if (!empty($newsphere_featured_news_title)): ?>
-          <h4 class="header-after1 ">
+          <h2 class="header-after1 ">
             <span class="header-after <?php echo esc_attr($color_class); ?>">
               <?php echo esc_html($newsphere_featured_news_title); ?>
             </span>
-          </h4>
+          </h2>
         <?php endif; ?>
 
 
@@ -66,9 +66,9 @@ if (!function_exists('newsphere_banner_featured_posts')):
                         <?php newsphere_post_categories(); ?>
                       </div>
                       <div class="read-title">
-                        <h4>
+                        <h3>
                           <a href="<?php the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($post->ID)); ?>"><?php the_title(); ?></a>
-                        </h4>
+                        </h3>
                       </div>
 
                       <div class="entry-meta">

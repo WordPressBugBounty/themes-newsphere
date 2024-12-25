@@ -1,4 +1,12 @@
-### 4.2.1 - Dec 11 2024
+### 4.3.0 - Dec 25 2024 =
+* New - SEO improvement
+* New - Uses proper HTML5 elements
+* New - Ensures headings follow a logical order
+* New - Elementor Swiper compatibility
+* Update - Block Style improvement
+* Fixed - Some styling glitch
+
+### 4.2.0 - Dec 11 2024
 * Update - Accessibilty improvement
 * Update - WooCommerce compatibility improvement
 * Update - Elementor compatibility improvement

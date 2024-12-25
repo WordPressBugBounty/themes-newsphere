@@ -7,7 +7,7 @@ Requires at least: 4.0
 Requires PHP: 5.3
 Tested up to: 6.7
 Description: Newsphere is a perfect news and magazine responsive WordPress theme that lets you write articles and blog posts with ease. Create a great news website the help of live customizer options and custom widgets, you can design your website as you like and preview the changes live. It is compatible with the Gutenberg and RTL along with WooCommerce plugin which helps you to integrate an online business with our newspaper template. As it includes many useful features that require to build an awesome looking newsportal, the theme is perfect for blogging and excellent for a news, newspaper, magazine, publishing or review site. The theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are number of demos available in this theme so choose the one you like and start to build a website. See our demos: https://afthemes.com/products/newsphere/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ and Docs: https://docs.afthemes.com/newsphere/
-Version: 4.2.1
+Version: 4.3.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: newsphere
@@ -52,7 +52,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Normalize
 --------------------------------------------------------------*/
 html {
-    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 100%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -341,7 +341,7 @@ select,
 optgroup,
 textarea {
     color: #4a4a4a;
-    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-size: 16px;
     line-height: 1.5;
@@ -358,12 +358,12 @@ h1, h2, h3, h4, h5, h6 {
 .nav-tabs>li,
 .main-navigation ul li a ,
 .site-title, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 p {
     margin-bottom: 15px;
-    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 dfn, cite, em, i {
@@ -2449,7 +2449,7 @@ body.aft-default-mode .is-style-outline a.wp-block-button__link:not(.has-text-co
 
 .cat-links li {
     display: inline-block;
-    font-size: 14px;
+    font-size: 12px;
     margin-right: 8px;
     line-height: 1.5;
 }
@@ -2462,24 +2462,24 @@ body.aft-default-mode .is-style-outline a.wp-block-button__link:not(.has-text-co
     display: block;
 }
 
-.read-title h4 {
+.read-title h3 {
     font-size: 16px;
     margin: 5px 0;
     font-weight: normal;
     line-height: 1.3;
 }
 
-.read-title h4 a {
+.read-title h3 a {
     color: #1c1c1c;
     font-weight: 700;
 }
-.sticky .read-title h4 a:before {
+.sticky .read-title h3 a:before {
     content: "\e91c";
     font-family: 'aft-icons' !important;
     color: #ffbf3f;
     padding-right: 5px;
 }
-.read-title h4 a:hover, .read-title h4 a:focus, .read-title h4 a:active{
+.read-title h3 a:hover, .read-title h3 a:focus, .read-title h3 a:active{
     color: #000000;
 }
 
@@ -2501,7 +2501,7 @@ body.aft-default-mode .is-style-outline a.wp-block-button__link:not(.has-text-co
     color: #fff;
 }
 
-.banner-carousel-1 .read-title h4 {
+.banner-carousel-1 .read-title h3 {
     font-size: 22px;
 }
 
@@ -2516,7 +2516,7 @@ body.aft-default-mode .is-style-outline a.wp-block-button__link:not(.has-text-co
     align-items: center;
 }
 
-.list-style .read-title h4 {
+.list-style .read-title h3 {
     font-size: 22px;
     margin: 10px 0;
 }
@@ -2568,18 +2568,18 @@ body.aft-default-mode .is-style-outline a.wp-block-button__link:not(.has-text-co
     margin-bottom: 10px;
 }
 
-.big-grid .read-title h4 {
+.big-grid .read-title h3 {
     font-size: 32px;
     margin: 10px 0 0;
 }
 .big-grid .cat-links a,
 .big-grid .read-details .entry-meta span ,
 .big-grid .read-details .entry-meta span a,
-.big-grid .read-title h4 a {
+.big-grid .read-title h3 a {
     color: #fff;
 }
 
-.newsphere_posts_express_grid .big-grid.col-2 .read-title h4 {font-size: 22px;}
+.newsphere_posts_express_grid .big-grid.col-2 .read-title h3 {font-size: 22px;}
 
 .big-grid .read-descprition {
     padding: 0;
@@ -2617,17 +2617,17 @@ body.aft-default-mode .is-style-outline a.wp-block-button__link:not(.has-text-co
 .small-gird-style .big-grid .read-details {
     padding: 10px;
 }
-.small-gird-style .big-grid .read-title h4{
+.small-gird-style .big-grid .read-title h3{
     font-size: 16px;
     margin: 5px 0 0;
 }
-.aft-trending-latest-popular .small-gird-style .big-grid .read-title h4{
+.aft-trending-latest-popular .small-gird-style .big-grid .read-title h3{
     font-size: 22px;
 }
 
 /*big + list posts-----*/
 /*grid + list posts-----*/
-.grid-plus-list .grid-part .read-title h4 {
+.grid-plus-list .grid-part .read-title h3 {
     font-size: 22px;
     margin: 10px 0;
 }
@@ -2637,7 +2637,7 @@ body.aft-default-mode .is-style-outline a.wp-block-button__link:not(.has-text-co
     padding-top: 0;
 }
 
-.grid-plus-list .list-part .list-style .read-title h4 {
+.grid-plus-list .list-part .list-style .read-title h3 {
     font-size: 14px;
 }
 
@@ -2713,8 +2713,8 @@ body.aft-default-mode .is-style-outline a.wp-block-button__link:not(.has-text-co
     width: 100%;
 }
 
-.banner-slider-1 .read-title h4 a,
-.banner-carousel-1 .read-title h4 a ,
+.banner-slider-1 .read-title h3 a,
+.banner-carousel-1 .read-title h3 a ,
 .banner-slider-1 .read-details .entry-meta span.byline span,
 .banner-carousel-1 .read-details .entry-meta span.byline span ,
 .banner-slider-1 .read-details .entry-meta span,
@@ -2800,10 +2800,10 @@ body.aft-default-mode .is-style-outline a.wp-block-button__link:not(.has-text-co
 
 .banner-slider-2 .read-details .entry-meta span.byline span,
 .banner-slider-2 .read-details .entry-meta span,
-.banner-slider-2 .read-title h4 a,
+.banner-slider-2 .read-title h3 a,
 .banner-carousel-2 .read-details .entry-meta span.byline span,
 .banner-carousel-2 .read-details .entry-meta span,
-.banner-carousel-2 .read-title h4 a {
+.banner-carousel-2 .read-title h3 a {
     color: #fff;
 }
 .banner-slider-2 .read-details .entry-meta span.byline a,
@@ -2871,9 +2871,9 @@ body.aft-default-mode .is-style-outline a.wp-block-button__link:not(.has-text-co
     margin-bottom: 0;
 }
 
-#sidr .banner-slider-2 .big-grid .read-title h4,
-#secondary .banner-slider-2 .big-grid .read-title h4,
-.site-footer .banner-slider-2 .big-grid .read-title h4{
+#sidr .banner-slider-2 .big-grid .read-title h3,
+#secondary .banner-slider-2 .big-grid .read-title h3,
+.site-footer .banner-slider-2 .big-grid .read-title h3{
     font-size: 18px;
 }
 
@@ -2997,7 +2997,7 @@ span.af-bg-play.af-hide-iframe.af-display-iframe {
     padding: 0 10px;
     min-height: 100px;
 }
-.vertical-slider .read-title h4 a,
+.vertical-slider .read-title h3 a,
 .vertical-slider .cat-links li a{
     color: #fff;
 }
@@ -3322,8 +3322,8 @@ nav.breadcrumb a:last-child:after {
     display: none;
 }
 
-.af-double-column.list-style .read-title h4 {
-    font-size: 16px;
+.af-double-column.list-style .read-title h3 {
+    font-size: 14px;
     margin: 5px 0;
 }
 
@@ -3331,8 +3331,8 @@ nav.breadcrumb a:last-child:after {
     flex-wrap: wrap;
 }
 
-.newsphere_posts_express_list .grid-part .read-title h4,
-.af-double-column.list-style .aft-spotlight-posts-1 .read-title h4 {
+.newsphere_posts_express_list .grid-part .read-title h3,
+.af-double-column.list-style .aft-spotlight-posts-1 .read-title h3 {
     font-size: 22px;
 }
 
@@ -3668,14 +3668,14 @@ body.single.aft-dark-mode span.tags-links a {
     opacity: 0.7;
 }
 
-.read-single-overbanner .read-title h4 {
+.read-single-overbanner .read-title h3 {
     font-size: 36px;
 }
 
 .read-single-overbanner .read-details .entry-meta span.byline span,
 .read-single-overbanner .read-details .entry-meta span,
 .read-single-overbanner .cat-color-1,
-.read-single-overbanner .read-title h4 a {
+.read-single-overbanner .read-title h3 a {
     color: #fff;
 }
 
@@ -3698,8 +3698,8 @@ body.single.aft-dark-mode span.tags-links a {
 .aft-trending-latest-popular .read-details .entry-meta span a,
 .main-banner-widget-section .read-details .entry-meta span,
 .main-banner-widget-section .read-details .entry-meta span a,
-.aft-trending-latest-popular .read-title h4 a,
-.main-banner-widget-section .read-title h4 a,
+.aft-trending-latest-popular .read-title h3 a,
+.main-banner-widget-section .read-title h3 a,
 .main-banner-widget-section .read-details,
 body.aft-light-mode .af-main-banner-image-active .main-banner-widget-section .header-after1 span,
 body.aft-default-mode .af-main-banner-image-active .main-banner-widget-section .header-after1 span,
@@ -3751,9 +3751,9 @@ body.aft-default-mode .af-main-banner-image-active .main-banner-widget-section .
 #secondary .af-sec-list-txt{
     width: 75%;
 }
-.site-footer .af-sec-list-txt .read-title h4,
-#sidr .af-sec-list-txt .read-title h4,
-#secondary .af-sec-list-txt .read-title h4{
+.site-footer .af-sec-list-txt .read-title h3,
+#sidr .af-sec-list-txt .read-title h3,
+#secondary .af-sec-list-txt .read-title h3{
     font-size: 16px;
     margin: 5px 0;
     line-height: 1.3;
@@ -4030,7 +4030,7 @@ article:nth-of-type(4n).archive-image-full-alternate  .archive-grid-post .read-b
 /*grid alternate full----*/
 /*grid style posts---*/
 /*full style posts---*/
-article.latest-posts-full .read-title h4 {
+article.latest-posts-full .read-title h3 {
     font-size: 24px;
 }
 article.latest-posts-full .read-img img{
@@ -4818,11 +4818,11 @@ body.aft-default-mode.aft-transparent-main-banner-box .aft-main-banner-section .
 .site-footer .header-after1 span,
 .site-footer .color-pad .entry-meta span a,
 .site-footer .color-pad .entry-meta span,
-.site-footer .color-pad .read-title h4 a,
+.site-footer .color-pad .read-title h3 a,
 .aft-main-banner-section .color-pad,
 .aft-main-banner-section .color-pad .entry-meta span a,
 .aft-main-banner-section .color-pad .entry-meta span,
-.aft-main-banner-section .color-pad .read-title h4 a{
+.aft-main-banner-section .color-pad .read-title h3 a{
     color: #fff;
 }
 
@@ -4938,7 +4938,7 @@ body.aft-dark-mode .color-pad .nav-links a,
 body.aft-dark-mode .read-details .entry-meta span,
 body.aft-dark-mode .color-pad .entry-meta span a,
 body.aft-dark-mode .color-pad .entry-meta span,
-body.aft-dark-mode .color-pad .read-title h4 a{
+body.aft-dark-mode .color-pad .read-title h3 a{
     color: #fff;
 }
 body.aft-dark-mode .main-navigation ul.children li a, 
@@ -5019,7 +5019,7 @@ body.aft-dark-mode .aft-main-banner-section .color-pad .cat-links li a{
 body.aft-dark-mode .aft-main-banner-section .color-pad,
 body.aft-dark-mode .aft-main-banner-section .color-pad .entry-meta span a,
 body.aft-dark-mode .aft-main-banner-section .color-pad .entry-meta span,
-body.aft-dark-mode .aft-main-banner-section .color-pad .read-title h4 a{
+body.aft-dark-mode .aft-main-banner-section .color-pad .read-title h3 a{
     color: #fff;
 }
 body.aft-dark-mode .aft-main-banner-section .vertical-slider .cat-links li a{
@@ -5118,13 +5118,13 @@ body.aft-light-mode #wp-calendar caption,
 body.aft-light-mode .color-pad .nav-links a,
 body.aft-light-mode .color-pad .entry-meta span a,
 body.aft-light-mode .color-pad .entry-meta span,
-body.aft-light-mode .color-pad .read-title h4 a{
+body.aft-light-mode .color-pad .read-title h3 a{
     color: #1c1c1c;
 }
 body.aft-light-mode .big-grid .cat-links li a,
 body.aft-light-mode .big-grid .read-details .entry-meta span, 
 body.aft-light-mode .big-grid .read-details .entry-meta span a, 
-body.aft-light-mode .big-grid .read-title h4 a{
+body.aft-light-mode .big-grid .read-title h3 a{
     color: #fff;
 }
 
@@ -5155,7 +5155,7 @@ body.aft-light-mode .aft-trending-latest-popular .nav-tabs>li>a,
 body.aft-light-mode .aft-main-banner-section .color-pad,
 body.aft-light-mode .aft-main-banner-section .color-pad .entry-meta span a,
 body.aft-light-mode .aft-main-banner-section .color-pad .entry-meta span,
-body.aft-light-mode .aft-main-banner-section .color-pad .read-title h4 a{
+body.aft-light-mode .aft-main-banner-section .color-pad .read-title h3 a{
     color: #404040;
 }
 body.aft-light-mode .aft-main-banner-section .vertical-slider .cat-links li a,
@@ -5516,9 +5516,19 @@ body.aft-light-mode .main-banner-widget-section .color-pad .cat-links li a.newsp
 .swiper-container{
     width:100% !important;
 }
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    /* Fix of Webkit flickering */
+    z-index: 1;
+  }
+
 .trending-posts-vertical.swiper-container,
 .af-widget-carousel.vertical-slider.swiper-container{
-    height:539px !important;
+    height:550px !important;
 }
 
 /* for elementor */

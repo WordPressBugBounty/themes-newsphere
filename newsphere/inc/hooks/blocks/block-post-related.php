@@ -34,11 +34,11 @@
       $related_posts = new wp_query($args);
 
       if (!empty($related_posts)) { ?>
-        <h4 class="widget-title header-after1">
+        <h2 class="widget-title header-after1">
           <span class="header-after">
             <?php echo esc_html($related_section_title);  ?>
           </span>
-        </h4>
+        </h2>
       <?php }
       ?>
       <div class="af-container-row clearfix">
@@ -76,9 +76,9 @@
                   <?php newsphere_post_categories(); ?>
                 </div>
                 <div class="read-title">
-                  <h4>
+                  <h3>
                     <a href="<?php echo esc_url(get_the_permalink($aft_post_id)); ?>"><?php echo esc_html(get_the_title($aft_post_id)); ?></a>
-                  </h4>
+                  </h3>
                 </div>
                 <div class="entry-meta">
                   <?php newsphere_post_item_meta(); ?>

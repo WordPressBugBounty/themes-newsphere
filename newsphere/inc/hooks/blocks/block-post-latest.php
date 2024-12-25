@@ -18,11 +18,11 @@ $all_posts = newsphere_get_posts($number_of_posts);
   <div class="container-wrapper">
     <div class="widget-title-section">
       <?php if (!empty($newsphere_latest_posts_title)): ?>
-        <h4 class="widget-title header-after1">
+        <h2 class="widget-title header-after1">
           <span class="header-after">
             <?php echo esc_html($newsphere_latest_posts_title);  ?>
           </span>
-        </h4>
+        </h2>
       <?php endif; ?>
 
     </div>
@@ -55,9 +55,9 @@ $all_posts = newsphere_get_posts($number_of_posts);
                   <?php newsphere_post_categories(); ?>
                 </div>
                 <div class="read-title">
-                  <h4>
+                  <h3>
                     <a href="<?php the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($post->ID)); ?>"><?php the_title(); ?></a>
-                  </h4>
+                  </h3>
                 </div>
                 <div class="entry-meta">
                   <?php newsphere_post_item_meta(); ?>

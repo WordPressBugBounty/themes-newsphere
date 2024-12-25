@@ -53,11 +53,11 @@ if (!class_exists('Newsphere_Single_Col_Categorised_Posts')) :
       <?php if (!empty($title) || !empty($subtitle)): ?>
         <div class="em-title-subtitle-wrap">
           <?php if (!empty($title)): ?>
-            <h4 class="widget-title header-after1">
+            <h2 class="widget-title header-after1">
               <span class="header-after">
                 <?php echo esc_html($title); ?>
               </span>
-            </h4>
+            </h2>
           <?php endif; ?>
 
         </div>
@@ -95,9 +95,9 @@ if (!class_exists('Newsphere_Single_Col_Categorised_Posts')) :
                   <?php newsphere_post_categories(); ?>
                 </div>
                 <div class="read-title">
-                  <h4>
+                  <h3>
                     <a href="<?php the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($post->ID)); ?>"><?php the_title(); ?></a>
-                  </h4>
+                  </h3>
                 </div>
                 <div class="entry-meta">
                   <?php newsphere_post_item_meta(); ?>

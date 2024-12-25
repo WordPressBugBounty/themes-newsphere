@@ -597,13 +597,14 @@ delay: 6000,
         },
 
         e(function () {
-            n.mobileMenu.init(), n.DataBackground(), n.setInstaHeight(), n.em_sticky(), n.MagnificPopup(), n.jQueryMarquee(), n.setHeaderHeight(), n.Offcanvas(), n.SwiperSlider(), n.scroll_up();
+            n.mobileMenu.init(), n.DataBackground(), n.setInstaHeight(), n.em_sticky(), n.MagnificPopup(), n.jQueryMarquee(), n.setHeaderHeight(), n.Offcanvas(),  n.scroll_up();
         }), e(window).on('scroll', function () {
         n.show_hide_scroll_top();
     }), e(window).on('resize', function () {
         n.mobileMenu.menuMobile();
     }), e(window).on('load', function () {
         n.MasonryBlog();
+        n.SwiperSlider();
         e('#loader-wrapper').fadeOut();
         e('#af-preloader').delay(500).fadeOut('slow');
         e(".af-search-click").on('click', function () {

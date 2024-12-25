@@ -65,11 +65,11 @@ if (!class_exists('Newsphere_author_info')) :
           <?php if (!empty($title)): ?>
             <div class="section-head">
               <?php if (!empty($title)): ?>
-                <h4 class="widget-title section-title">
+                <h2 class="widget-title section-title">
                   <span class="header-after">
                     <?php echo esc_html($title); ?>
                   </span>
-                </h4>
+                </h2>
               <?php endif; ?>
 
 
@@ -97,19 +97,19 @@ if (!class_exists('Newsphere_author_info')) :
                   <ul>
                     <?php if (!empty($facebook)) : ?>
                       <li>
-                        <a href="<?php echo esc_url($facebook); ?>" target="_blank" aria-label="Facebook"></a>
+                        <a href="<?php echo esc_url($facebook); ?>" target="_blank" accesskey="f" aria-label="Facebook"></a>
                       </li>
                     <?php endif; ?>
 
                     <?php if (!empty($youtube)) : ?>
                       <li>
-                        <a href="<?php echo esc_url($youtube); ?>" target="_blank" aria-label="YouTube"></a>
+                        <a href="<?php echo esc_url($youtube); ?>" target="_blank" accesskey="y" aria-label="YouTube"></a>
                       </li>
                     <?php endif; ?>
 
                     <?php if (!empty($twitter)) : ?>
                       <li>
-                        <a href="<?php echo esc_url($twitter); ?>" target="_blank" aria-label="Twitter"></a>
+                        <a href="<?php echo esc_url($twitter); ?>" target="_blank" accesskey="t" aria-label="Twitter"></a>
                       </li>
                     <?php endif; ?>
 

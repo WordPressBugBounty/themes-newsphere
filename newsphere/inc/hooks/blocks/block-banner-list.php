@@ -40,9 +40,9 @@ $all_posts_vertical = newsphere_get_posts($vertical_slider_number_of_slides, $se
                         <?php newsphere_post_categories(); ?>
                       </div>
                       <div class="read-title">
-                        <h4>
+                        <h3>
                           <a href="<?php the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($post->ID)); ?>"><?php the_title(); ?></a>
-                        </h4>
+                        </h3>
                       </div>
 
                       <div class="entry-meta">
@@ -114,9 +114,9 @@ $all_posts_vertical = newsphere_get_posts($vertical_slider_number_of_slides, $se
                     <?php newsphere_post_categories(); ?>
                   </div>
                   <div class="read-title">
-                    <h4>
+                    <h3>
                       <a href="<?php the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($post->ID)); ?>"><?php the_title(); ?></a>
-                    </h4>
+                    </h3>
                   </div>
                   <div class="entry-meta">
                     <?php newsphere_post_item_meta(); ?>

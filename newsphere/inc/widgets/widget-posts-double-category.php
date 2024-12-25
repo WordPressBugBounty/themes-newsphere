@@ -60,11 +60,11 @@ if (!class_exists('Newsphere_Double_Col_Categorised_Posts')) :
         <div class="af-container-row clearfix">
           <div class="col-2 float-l pad <?php echo esc_attr($layout_1); ?> grid-plus-list af-sec-post">
             <?php if (!empty($title_1)): ?>
-              <h4 class="widget-title header-after1">
+              <h2 class="widget-title header-after1">
                 <span class="header-after">
                   <?php echo esc_html($title_1); ?>
                 </span>
-              </h4>
+              </h2>
             <?php endif; ?>
             <div class="af-container-row clearfix af-double-column list-style">
               <?php $all_posts = newsphere_get_posts($number_of_posts_1, $category_1); ?>
@@ -114,9 +114,9 @@ if (!class_exists('Newsphere_Double_Col_Categorised_Posts')) :
                           <?php newsphere_post_categories(); ?>
                         </div>
                         <div class="read-title">
-                          <h4>
+                          <h3>
                             <a href="<?php the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($post->ID)); ?>"><?php the_title(); ?></a>
-                          </h4>
+                          </h3>
                         </div>
                         <div class="entry-meta">
                           <?php
@@ -141,11 +141,11 @@ if (!class_exists('Newsphere_Double_Col_Categorised_Posts')) :
 
           <div class="col-2 float-l pad <?php echo esc_attr($layout_2); ?> grid-plus-list af-sec-post">
             <?php if (!empty($title_2)): ?>
-              <h4 class="widget-title header-after1">
+              <h2 class="widget-title header-after1">
                 <span class="header-after">
                   <?php echo esc_html($title_2); ?>
                 </span>
-              </h4>
+              </h2>
             <?php endif; ?>
             <div class="af-container-row clearfix af-double-column list-style">
               <?php $all_posts = newsphere_get_posts($number_of_posts_2, $category_2); ?>
@@ -194,9 +194,9 @@ if (!class_exists('Newsphere_Double_Col_Categorised_Posts')) :
                           <?php newsphere_post_categories(); ?>
                         </div>
                         <div class="read-title">
-                          <h4>
+                          <h3>
                             <a href="<?php the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($post->ID)); ?>"><?php the_title(); ?></a>
-                          </h4>
+                          </h3>
                         </div>
                         <div class="entry-meta">
                           <?php
