@@ -1,4 +1,12 @@
-### 4.3.0 - Dec 25 2024 =
+### 4.3.1 - Mar 17 2025
+* Update - SEO improvement
+* Update - Uses proper HTML5 elements
+* Update - Ensures headings follow a logical order
+* Update - Elementor Swiper compatibility
+* Update - Block Style improvement
+* Fixed - Some styling glitch
+
+### 4.3.0 - Dec 25 2024
 * New - SEO improvement
 * New - Uses proper HTML5 elements
 * New - Ensures headings follow a logical order

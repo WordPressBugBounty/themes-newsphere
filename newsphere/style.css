@@ -7,7 +7,7 @@ Requires at least: 4.0
 Requires PHP: 5.3
 Tested up to: 6.7
 Description: Newsphere is a perfect news and magazine responsive WordPress theme that lets you write articles and blog posts with ease. Create a great news website the help of live customizer options and custom widgets, you can design your website as you like and preview the changes live. It is compatible with the Gutenberg and RTL along with WooCommerce plugin which helps you to integrate an online business with our newspaper template. As it includes many useful features that require to build an awesome looking newsportal, the theme is perfect for blogging and excellent for a news, newspaper, magazine, publishing or review site. The theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are number of demos available in this theme so choose the one you like and start to build a website. See our demos: https://afthemes.com/products/newsphere/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ and Docs: https://docs.afthemes.com/newsphere/
-Version: 4.3.0
+Version: 4.3.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: newsphere
@@ -52,7 +52,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Normalize
 --------------------------------------------------------------*/
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-size: 100%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -341,7 +341,7 @@ select,
 optgroup,
 textarea {
     color: #4a4a4a;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-size: 1rem;
     font-size: 16px;
     line-height: 1.5;
@@ -358,12 +358,12 @@ h1, h2, h3, h4, h5, h6 {
 .nav-tabs>li,
 .main-navigation ul li a ,
 .site-title, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik',sans-serif;
 }
 
 p {
     margin-bottom: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',sans-serif;
 }
 
 dfn, cite, em, i {
@@ -3484,7 +3484,7 @@ body.single-post .entry-title {
 .widget_text a,
 footer .widget_text a,
 #sidr .widget_text a,
-.entry-content > [class*="wp-block-"] a:not(.has-text-color),
+.entry-content > [class*="wp-block-"] a:not(.has-text-color):not[class*="wc-block"],
 .entry-content > ul a, .entry-content > ul a:visited,
 .entry-content > ol a, .entry-content > ol a:visited,
 .entry-content > p a, .entry-content > p a:visited{color: #1e70cd;}
