@@ -100,7 +100,7 @@ if (!class_exists('AF_themes_info')) {
         $this->menu_name, // Menu Title.
         'edit_posts', // Capability.
         'newsphere', // Menu slug.
-        array($this, 'newsphere_render_starter_sites'), // Action.
+        array($this, 'newsphere_render_page'), // Action.
         $afthemes_icon,
         30
       );
@@ -108,33 +108,14 @@ if (!class_exists('AF_themes_info')) {
       // Our getting started page.
       add_submenu_page(
         'newsphere', // Parent slug.
-        __('Starter Sites', 'newsphere'), // Page title.
-        __('Starter Sites', 'newsphere'), // Menu title.
+        __('Dashboard', 'newsphere'), // Page title.
+        __('Dashboard', 'newsphere'), // Menu title.
         'manage_options', // Capability.
         'newsphere', // Menu slug.
-        array($this, 'newsphere_render_starter_sites'), // Callback function.
-        // $starter_sites_order
+        array($this, 'newsphere_render_page'), // Callback function.
+        // $get_started_order
       );
 
-      add_submenu_page(
-        'newsphere', // Parent slug.
-        __('Block Patterns', 'newsphere'), // Page title.
-        __('Block Patterns', 'newsphere'), // Menu title.
-        'manage_options', // Capability.
-        $starter_template_slug, // Menu slug.
-        array($this, 'newsphere_render_starter_templates'), // Callback function.
-        $starter_sites_order
-      );
-
-      add_submenu_page(
-        'newsphere', // Parent slug.
-        __('Elementor Kits', 'newsphere'), // Page title.
-        __('Elementor Kits', 'newsphere'), // Menu title.
-        'manage_options', // Capability.
-        $template_kits_slug, // Menu slug.
-        array($this, 'newsphere_render_templates_kits'), // Callback function.
-        $starter_sites_order
-      );
 
       // Our getting started page.
       add_submenu_page(
@@ -147,25 +128,48 @@ if (!class_exists('AF_themes_info')) {
 
       );
 
-      // Our getting started page.
-      add_submenu_page(
-        'newsphere', // Parent slug.
-        __('Settings', 'newsphere'), // Page title.
-        __('Settings', 'newsphere'), // Menu title.
-        'manage_options', // Capability.
-        'explore-more', // Menu slug.
-        array($this, 'newsphere_render_page'), // Callback function.
-        // $get_started_order
-      );
 
       // Our getting started page.
       add_submenu_page(
         'newsphere', // Parent slug.
-        __('Upgrade', 'newsphere'), // Page title.
-        '<span id="aft-upgrade-menu-item">' . __('Upgrade', 'newsphere') .'</span>', // Menu title.
+        __('Starter Sites', 'newsphere'), // Page title.
+        __('Starter Sites', 'newsphere'), // Menu title.
+        'manage_options', // Capability.
+        'starter-sites', // Menu slug.
+        array($this, 'newsphere_render_starter_sites'), // Callback function.
+        // $starter_sites_order
+      );
+
+      add_submenu_page(
+        'newsphere', // Parent slug.
+        __('Elementor Kits', 'newsphere'), // Page title.
+        __('Elementor Kits', 'newsphere'), // Menu title.
+        'manage_options', // Capability.
+        $template_kits_slug, // Menu slug.
+        array($this, 'newsphere_render_templates_kits'), // Callback function.
+        // $starter_sites_order
+      );
+
+      add_submenu_page(
+        'newsphere', // Parent slug.
+        __('Block Patterns', 'newsphere'), // Page title.
+        __('Block Patterns', 'newsphere'), // Menu title.
+        'manage_options', // Capability.
+        $starter_template_slug, // Menu slug.
+        array($this, 'newsphere_render_starter_templates'), // Callback function.
+        // $starter_sites_order
+      );
+     
+
+
+      // Our getting started page.
+      add_submenu_page(
+        'newsphere', // Parent slug.
+        __('Upgrade to Pro', 'newsphere'), // Page title.
+        '<span id="aft-upgrade-menu-item">' . __('Upgrade Now', 'newsphere') . '</span>', // Menu title.
         'manage_options', // Capability.
         esc_url('https://afthemes.com/products/newsphere-pro/') // Menu slug.
-        
+
       );
     }
 

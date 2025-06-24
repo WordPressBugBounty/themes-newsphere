@@ -15,11 +15,7 @@ if ( ! function_exists( 'newsphere_recommended_plugins' ) ) :
     function newsphere_recommended_plugins() {
 
         $plugins = array(
-            array(
-                'name'     => esc_html__( 'AF Companion', 'newsphere' ),
-                'slug'     => 'af-companion',
-                'required' => false,
-            ),
+            
             array(
                 'name'     => esc_html__( 'Templatespare', 'newsphere' ),
                 'slug'     => 'templatespare',
@@ -33,16 +29,6 @@ if ( ! function_exists( 'newsphere_recommended_plugins' ) ) :
             array(
                 'name'     => esc_html__( 'Blockspare', 'newsphere' ),
                 'slug'     => 'blockspare',
-                'required' => false,
-            ),
-            array(
-                'name'     => esc_html__( 'Latest Posts Block', 'newsphere' ),
-                'slug'     => 'latest-posts-block-lite',
-                'required' => false,
-            ),
-            array(
-                'name'     => esc_html__( 'Magic Content Box', 'newsphere' ),
-                'slug'     => 'magic-content-box-lite',
                 'required' => false,
             ),
             array(
