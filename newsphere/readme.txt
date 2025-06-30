@@ -2,7 +2,7 @@
 Contributors: AF themes
 Requires PHP: 5.3
 Tested up to: 6.8
-Stable tag: 4.4.2
+Stable tag: 4.4.2.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-menu, featured-images, full-width-template, post-formats, sticky-post, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
