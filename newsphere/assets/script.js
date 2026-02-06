@@ -144,7 +144,7 @@
                 displace: false,
             });
 
-            e('.sidr-class-sidr-button-close').on('click',function () {
+            e('.sidr-class-sidr-button-close').on('click', function () {
                 e.sidr('close', 'sidr');
             });
         },
@@ -234,11 +234,11 @@
             var MainBannerCarouselDefault = new Swiper('.banner-carousel-default', {
                 direction: 'horizontal',
                 loop: true,
-                 autoplay: {
-delay: 6000,
-},
+                autoplay: {
+                    delay: 6000,
+                },
                 slidesPerView: 1,
-                
+
                 spaceBetween: 20,
                 navigation: {
                     nextEl: '.swiper-button-next',
@@ -257,11 +257,11 @@ delay: 6000,
             var MainBannerCarousel = new Swiper('.banner-carousel-slider', {
                 direction: 'horizontal',
                 loop: true,
-                 autoplay: {
-delay: 6000,
-},
+                autoplay: {
+                    delay: 6000,
+                },
                 slidesPerView: 2,
-                
+
                 spaceBetween: 20,
                 navigation: {
                     nextEl: '.swiper-button-next',
@@ -291,11 +291,11 @@ delay: 6000,
             var MainBannerSliderSingle = new Swiper('.banner-main-slider', {
                 direction: 'horizontal',
                 loop: true,
-                 autoplay: {
-delay: 6000,
-},
+                autoplay: {
+                    delay: 6000,
+                },
                 slidesPerView: 1,
-                
+
                 spaceBetween: 20,
                 navigation: {
                     nextEl: '.swiper-button-next',
@@ -313,11 +313,11 @@ delay: 6000,
 
             var MainBannerCarouselSingle = new Swiper('.banner-single-slider', {
                 direction: 'horizontal',
-                
+
                 loop: true,
-                 autoplay: {
-delay: 6000,
-},
+                autoplay: {
+                    delay: 6000,
+                },
                 slidesPerView: 1,
                 spaceBetween: 20,
                 navigation: {
@@ -338,10 +338,10 @@ delay: 6000,
             var WidgetContentCarousel = new Swiper('.posts-carousel', {
                 direction: 'horizontal',
                 loop: true,
-                
-                 autoplay: {
-delay: 6000,
-},
+
+                autoplay: {
+                    delay: 6000,
+                },
                 slidesPerView: 3,
                 spaceBetween: 20,
                 navigation: {
@@ -372,10 +372,10 @@ delay: 6000,
             var WidgetSidebarCarousel = new Swiper('#secondary .posts-carousel', {
                 direction: 'horizontal',
                 loop: true,
-                 autoplay: {
-delay: 6000,
-},
-                
+                autoplay: {
+                    delay: 6000,
+                },
+
                 slidesPerView: 1,
                 spaceBetween: 20,
                 navigation: {
@@ -395,11 +395,11 @@ delay: 6000,
             var WidgetFooterCarousel = new Swiper('.site-footer .posts-carousel', {
                 direction: 'horizontal',
                 loop: true,
-                 autoplay: {
-delay: 6000,
-},
+                autoplay: {
+                    delay: 6000,
+                },
                 slidesPerView: 1,
-                
+
                 spaceBetween: 20,
                 navigation: {
                     nextEl: '.swiper-button-next',
@@ -418,11 +418,11 @@ delay: 6000,
             var WidgetSidrCarousel = new Swiper('#sidr .posts-carousel', {
                 direction: 'horizontal',
                 loop: true,
-                 autoplay: {
-delay: 6000,
-},
+                autoplay: {
+                    delay: 6000,
+                },
                 slidesPerView: 1,
-                
+
                 spaceBetween: 20,
                 navigation: {
                     nextEl: '.swiper-button-next',
@@ -441,11 +441,11 @@ delay: 6000,
             var InstaCarousel = new Swiper('.instagram-carousel', {
                 direction: 'horizontal',
                 loop: true,
-                 autoplay: {
-delay: 6000,
-},
+                autoplay: {
+                    delay: 6000,
+                },
                 slidesPerView: 6,
-                
+
                 spaceBetween: 0,
                 navigation: {
                     nextEl: '.swiper-button-next',
@@ -475,10 +475,10 @@ delay: 6000,
             var WidgetSlider = new Swiper('.posts-slider', {
                 direction: 'horizontal',
                 loop: true,
-                 autoplay: {
-delay: 6000,
-},
-                slidesPerView: 1,                
+                autoplay: {
+                    delay: 6000,
+                },
+                slidesPerView: 1,
                 spaceBetween: 0,
                 navigation: {
                     nextEl: '.swiper-button-next',
@@ -494,56 +494,107 @@ delay: 6000,
             }
 
 
-            var VerticalSlider = new Swiper('.vertical-slider', {
-                direction: 'vertical',
-                loop: true,
-                slidesPerView: 5,
-                
-                spaceBetween: 10,
-                 autoplay: {
-delay: 6000,
-},
-                breakpoints: {
-                    // when window width is <= 320px
-                    768: {
-                        allowTouchMove: 0,
+            //             var VerticalSlider = new Swiper('.vertical-slider', {
+            //                 direction: 'vertical',
+            //                 loop: true,
+            //                 slidesPerView: 5,
 
-                    },
+            //                 spaceBetween: 10,
+            //                  autoplay: {
+            // delay: 6000,
+            // },
+            //                 breakpoints: {
+            //                     // when window width is <= 320px
+            //                     768: {
+            //                         allowTouchMove: 0,
+
+            //                     },
+            //                 }
+            //             });
+
+            //             if (jQuery('.vertical-slider').length > 0) {
+            //                 $(".vertical-slider").on("mouseenter", function () {
+            //                     VerticalSlider.autoplay.stop();
+            //                 }).on("mouseleave", function () {
+            //                     VerticalSlider.autoplay.start();
+            //                 });
+            //             }
+
+            //             var VerticalPostsSlider = new Swiper('.trending-posts-vertical', {
+            //                 direction: 'vertical',
+            //                 loop: true,
+            //                 slidesPerView: 5,
+            //                 spaceBetween: 10,
+            //                  autoplay: {
+            // delay: 6000,
+            // },
+            //                 breakpoints: {
+            //                     // when window width is <= 320px
+            //                     768: {
+            //                         allowTouchMove: 0,
+
+            //                     },
+            //                 }
+            //             });
+
+            //             if (jQuery('.trending-posts-vertical').length > 0) {
+            //                 $(".trending-posts-vertical").on("mouseenter", function () {
+            //                     VerticalPostsSlider.autoplay.stop();
+            //                 }).on("mouseleave", function () {
+            //                     VerticalPostsSlider.autoplay.start();
+            //                 });
+            //             }
+
+            let VerticalSliderInstance;
+            let VerticalPostsSliderInstance;
+
+            function initResponsiveVerticalSliders() {
+
+                const w = window.innerWidth;
+
+                let slides = 5;            // default for desktop
+                let direction = 'vertical'; // default for desktop
+
+                if (w <= 576) {
+                    // Mobile
+                    slides = 1;
+                    direction = 'horizontal';
+                } else if (w <= 768) {
+                    // Tablet
+                    slides = 2;
+                    direction = 'horizontal';
                 }
-            });
 
-            if (jQuery('.vertical-slider').length > 0) {
-                $(".vertical-slider").on("mouseenter", function () {
-                    VerticalSlider.autoplay.stop();
-                }).on("mouseleave", function () {
-                    VerticalSlider.autoplay.start();
+                // Destroy previous instances
+                if (VerticalSliderInstance) VerticalSliderInstance.destroy(true, true);
+                if (VerticalPostsSliderInstance) VerticalPostsSliderInstance.destroy(true, true);
+
+                // First slider
+                VerticalSliderInstance = new Swiper('.vertical-slider', {
+                    direction,
+                    slidesPerView: slides,
+                    spaceBetween: 10,
+                    autoplay: { delay: 6000 },
                 });
+
+                $(".vertical-slider").on("mouseenter", () => VerticalSliderInstance.autoplay.stop())
+                    .on("mouseleave", () => VerticalSliderInstance.autoplay.start());
+
+                // Second slider
+                VerticalPostsSliderInstance = new Swiper('.trending-posts-vertical', {
+                    direction,
+                    slidesPerView: slides,
+                    spaceBetween: 10,
+                    autoplay: { delay: 6000 },
+                });
+
+                $(".trending-posts-vertical").on("mouseenter", () => VerticalPostsSliderInstance.autoplay.stop())
+                    .on("mouseleave", () => VerticalPostsSliderInstance.autoplay.start());
             }
 
-            var VerticalPostsSlider = new Swiper('.trending-posts-vertical', {
-                direction: 'vertical',
-                loop: true,
-                slidesPerView: 5,
-                spaceBetween: 10,
-                 autoplay: {
-delay: 6000,
-},
-                breakpoints: {
-                    // when window width is <= 320px
-                    768: {
-                        allowTouchMove: 0,
+            initResponsiveVerticalSliders();
+            window.addEventListener('resize', initResponsiveVerticalSliders);
 
-                    },
-                }
-            });
-
-            if (jQuery('.trending-posts-vertical').length > 0) {
-                $(".trending-posts-vertical").on("mouseenter", function () {
-                    VerticalPostsSlider.autoplay.stop();
-                }).on("mouseleave", function () {
-                    VerticalPostsSlider.autoplay.start();
-                });
-            }
 
 
             // Video slider part starts
@@ -565,7 +616,7 @@ delay: 6000,
                 loop: false,
                 slidesPerView: 4,
                 spaceBetween: 10,
-                
+
                 centeredSlides: false,
                 // If we need pagination
                 navigation: {
@@ -597,25 +648,25 @@ delay: 6000,
         },
 
         e(function () {
-            n.mobileMenu.init(), n.DataBackground(), n.setInstaHeight(), n.em_sticky(), n.MagnificPopup(), n.jQueryMarquee(), n.setHeaderHeight(), n.Offcanvas(),  n.scroll_up();
+            n.mobileMenu.init(), n.DataBackground(), n.setInstaHeight(), n.em_sticky(), n.MagnificPopup(), n.jQueryMarquee(), n.setHeaderHeight(), n.Offcanvas(), n.scroll_up();
         }), e(window).on('scroll', function () {
-        n.show_hide_scroll_top();
-    }), e(window).on('resize', function () {
-        n.mobileMenu.menuMobile();
-    }), e(window).on('load', function () {
-        n.MasonryBlog();
-        n.SwiperSlider();
-        e('#loader-wrapper').fadeOut();
-        e('#af-preloader').delay(500).fadeOut('slow');
-        e(".af-search-click").on('click', function () {
-            e("#af-search-wrap").toggleClass("af-search-toggle");
-        });
-        jQuery('.search-overlay .search-icon').on('click', function () {
-            jQuery(this).parent().toggleClass('reveal-search');
-            return false;
-        });
+            n.show_hide_scroll_top();
+        }), e(window).on('resize', function () {
+            n.mobileMenu.menuMobile();
+        }), e(window).on('load', function () {
+            n.MasonryBlog();
+            n.SwiperSlider();
+            e('#loader-wrapper').fadeOut();
+            e('#af-preloader').delay(500).fadeOut('slow');
+            e(".af-search-click").on('click', function () {
+                e("#af-search-wrap").toggleClass("af-search-toggle");
+            });
+            jQuery('.search-overlay .search-icon').on('click', function () {
+                jQuery(this).parent().toggleClass('reveal-search');
+                return false;
+            });
 
 
-    })
+        })
 })(jQuery);
 

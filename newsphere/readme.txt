@@ -1,8 +1,8 @@
 === Newsphere ===
 Contributors: AF themes
-Requires PHP: 5.3
-Tested up to: 6.8
-Stable tag: 4.4.3
+Requires PHP: 5.0
+Tested up to: 6.9
+Stable tag: 4.4.8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-menu, featured-images, full-width-template, post-formats, sticky-post, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
@@ -36,10 +36,24 @@ Newsphere is a perfect news and magazine responsive WordPress theme that lets yo
 Newsphere includes support for Infinite Scroll in Jetpack.
 
 == Change log ==
-= 4.4.3 - Aug 21 2025 =
-* Update - Post navigation HTML structure updated for better styling
-* Update - Previous/Next post labels improved for translations (i18n)
-* Update - Screen reader text corrected to "Post navigation" for accessibility
+= 4.4.8 - Dec 30 2025 = 
+* Update - German language file
+* Update - Arabic language file
+* Update - French language file
+* Update - Italian language file
+* Update - Japanese language file
+* Update - Polish language file
+* Update - Portugese language file
+* Update - Spanish language file
+* Update - Dutch language file
+* Update - Russian language file
+* Update - Ukranian language file
+* Update - Swedish language file
+
+= 4.4.6 - Nov 27 2025 =
+* Update - Vertical slider on tabs and mobile improved
+* Update - Block Style improvement
+* Fixed - Some styling glitch
 
 = 4.4.2 - Jun 24 2025 =
 * Update - Default admin panel

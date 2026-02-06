@@ -196,7 +196,7 @@ function newsphere_scripts()
   // wp_enqueue_style('font-awesome-4', get_template_directory_uri().'/assets/font-awesome/css/font-awesome'.$min.'.css');
   wp_enqueue_style('aft-icons', get_template_directory_uri() . '/assets/icons/style.css', array());
   wp_enqueue_style('bootstrap', get_template_directory_uri() . '/assets/bootstrap/css/bootstrap' . $min . '.css');
-  wp_enqueue_style('swiper-slider', get_template_directory_uri() . '/assets/swiper/css/swiper-bundle' . $min . '.css');
+  wp_enqueue_style('swiper-slider', get_template_directory_uri() . '/assets/swiper/css/swiper-bundle-new' . $min . '.css');
   wp_enqueue_style('sidr', get_template_directory_uri() . '/assets/sidr/css/sidr.bare.css');
   wp_enqueue_style('magnific-popup', get_template_directory_uri() . '/assets/magnific-popup/magnific-popup.css');
 
@@ -234,7 +234,7 @@ function newsphere_scripts()
   wp_enqueue_script('newsphere-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true);
   wp_enqueue_script('newsphere-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true);
 
-  wp_enqueue_script('swiper', get_template_directory_uri() . '/assets/swiper/js/swiper-bundle' . $min . '.js', array('jquery'), '', true);
+  wp_enqueue_script('swiper', get_template_directory_uri() . '/assets/swiper/js/swiper-bundle-new' . $min . '.js', array('jquery'), '', true);
 
 
   wp_enqueue_script('bootstrap', get_template_directory_uri() . '/assets/bootstrap/js/bootstrap' . $min . '.js', array('jquery'), '', true);
