@@ -151,7 +151,7 @@ function newsphere_get_default_theme_options() {
     $defaults['number_of_frontpage_latest_posts'] = 4;
 
 
-    $defaults['footer_copyright_text'] = esc_html__('Copyright &copy; All rights reserved.', 'newsphere');
+    $defaults['footer_copyright_text'] = __('Copyright &copy; All rights reserved.', 'newsphere');
     $defaults['hide_footer_menu_section']  = 0;
     $defaults['number_of_footer_widget']  = 3;
 

@@ -20,7 +20,7 @@ $wp_customize->add_control(
         $wp_customize,
         'global_color_section_title',
         array(
-            'label' => esc_html__('Global Color Section ', 'newsphere'),
+            'label' => __('Global Color Section ', 'newsphere'),
             'section' => 'colors',
             'priority' => 5,
             'active_callback' => 'global_site_mode_status'
@@ -41,7 +41,7 @@ $wp_customize->add_control(
         $wp_customize,
         'global_color_section_notice',
         array(
-            'description' => esc_html__('Background Color will not be applicable for this mode.', 'newsphere'),
+            'description' => __('Background Color will not be applicable for this mode.', 'newsphere'),
             'section' => 'colors',
             'priority' => 10,
             'active_callback' => 'global_site_mode_dark_light_status'
@@ -61,13 +61,13 @@ $wp_customize->add_setting('global_site_mode_setting',
 
 $wp_customize->add_control('global_site_mode_setting',
     array(
-        'label' => esc_html__('Site Color Mode', 'newsphere'),
+        'label' => __('Site Color Mode', 'newsphere'),
         'section' => 'colors',
         'type' => 'select',
         'choices' => array(
-            'aft-default-mode' => esc_html__('Default', 'newsphere'),
-            'aft-light-mode' => esc_html__('Light', 'newsphere'),
-            'aft-dark-mode' => esc_html__('Dark', 'newsphere'),
+            'aft-default-mode' => __('Default', 'newsphere'),
+            'aft-light-mode' => __('Light', 'newsphere'),
+            'aft-dark-mode' => __('Dark', 'newsphere'),
 
 
         ),
@@ -88,7 +88,7 @@ $wp_customize->add_control(
         $wp_customize,
         'primary_color',
         array(
-            'label' => esc_html__('Primary Color', 'newsphere'),
+            'label' => __('Primary Color', 'newsphere'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 5,
@@ -112,7 +112,7 @@ $wp_customize->add_control(
         $wp_customize,
         'secondary_color',
         array(
-            'label' => esc_html__('Secondary Color', 'newsphere'),
+            'label' => __('Secondary Color', 'newsphere'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 5,
@@ -134,7 +134,7 @@ $wp_customize->add_control(
         $wp_customize,
         'site_wide_title_color',
         array(
-            'label' => esc_html__('Single Title Color', 'newsphere'),
+            'label' => __('Single Title Color', 'newsphere'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 10,
@@ -158,7 +158,7 @@ $wp_customize->add_control(
         $wp_customize,
         'link_color',
         array(
-            'label' => esc_html__('General Link Color', 'newsphere'),
+            'label' => __('General Link Color', 'newsphere'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 10,
@@ -181,7 +181,7 @@ $wp_customize->add_control(
         $wp_customize,
         'site_default_post_box_color',
         array(
-            'label' => esc_html__('Box color', 'newsphere'),
+            'label' => __('Box color', 'newsphere'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 10,
@@ -204,7 +204,7 @@ $wp_customize->add_control(
         $wp_customize,
         'post_format_color',
         array(
-            'label' => esc_html__('Post Format Icon', 'newsphere'),
+            'label' => __('Post Format Icon', 'newsphere'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 10,
@@ -226,7 +226,7 @@ $wp_customize->add_control(
         $wp_customize,
         'top_header_section_title',
         array(
-            'label' => esc_html__('Top Header Section ', 'newsphere'),
+            'label' => __('Top Header Section ', 'newsphere'),
             'section' => 'colors',
             'priority' => 10,
             'active_callback' => function ($control) {
@@ -254,7 +254,7 @@ $wp_customize->add_control(
         $wp_customize,
         'top_header_background_color',
         array(
-            'label' => esc_html__('Background color', 'newsphere'),
+            'label' => __('Background color', 'newsphere'),
             'section' => 'colors',
             'settings' => 'top_header_background_color',
             'priority' => 10,
@@ -283,7 +283,7 @@ $wp_customize->add_control(
         $wp_customize,
         'top_header_text_color',
         array(
-            'label' => esc_html__('Texts color', 'newsphere'),
+            'label' => __('Texts color', 'newsphere'),
             'section' => 'colors',
             'settings' => 'top_header_text_color',
             'priority' => 10,
@@ -311,7 +311,7 @@ $wp_customize->add_control(
         $wp_customize,
         'main_navigation_section_title',
         array(
-            'label' => esc_html__('Main Navigation Section ', 'newsphere'),
+            'label' => __('Main Navigation Section ', 'newsphere'),
             'section' => 'colors',
             'priority' => 10,
             'active_callback' => 'global_site_mode_status'
@@ -333,7 +333,7 @@ $wp_customize->add_control(
         $wp_customize,
         'main_navigation_custom_background_color',
         array(
-            'label' => esc_html__('Background Color', 'newsphere'),
+            'label' => __('Background Color', 'newsphere'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 10,
@@ -356,7 +356,7 @@ $wp_customize->add_control(
         $wp_customize,
         'main_navigation_link_color',
         array(
-            'label' => esc_html__('Menu Item Color', 'newsphere'),
+            'label' => __('Menu Item Color', 'newsphere'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 10,
@@ -380,7 +380,7 @@ $wp_customize->add_control(
         $wp_customize,
         'main_navigation_badge_background',
         array(
-            'label' => esc_html__('Badge Background', 'newsphere'),
+            'label' => __('Badge Background', 'newsphere'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 10,
@@ -403,7 +403,7 @@ $wp_customize->add_control(
         $wp_customize,
         'main_navigation_badge_color',
         array(
-            'label' => esc_html__('Badge Color', 'newsphere'),
+            'label' => __('Badge Color', 'newsphere'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 10,
@@ -425,7 +425,7 @@ $wp_customize->add_control(
         $wp_customize,
         'background_color_section_title',
         array(
-            'label' => esc_html__('Main Banner Section ', 'newsphere'),
+            'label' => __('Main Banner Section ', 'newsphere'),
             'section' => 'colors',
             'priority' => 10,
             'active_callback' => function ($control) {
@@ -452,7 +452,7 @@ $wp_customize->add_control(
         $wp_customize,
         'main_banner_section_background_color',
         array(
-            'label' => esc_html__('Background color', 'newsphere'),
+            'label' => __('Background color', 'newsphere'),
             'section' => 'colors',
             'settings' => 'main_banner_section_background_color',
             'priority' => 10,
@@ -480,7 +480,7 @@ $wp_customize->add_control(
         $wp_customize,
         'main_banner_section_secondary_background_color',
         array(
-            'label' => esc_html__('Foreground color', 'newsphere'),
+            'label' => __('Foreground color', 'newsphere'),
             'section' => 'colors',
             'settings' => 'main_banner_section_secondary_background_color',
             'priority' => 10,
@@ -508,7 +508,7 @@ $wp_customize->add_control(
         $wp_customize,
         'main_banner_section_texts_color',
         array(
-            'label' => esc_html__('Texts color', 'newsphere'),
+            'label' => __('Texts color', 'newsphere'),
             'section' => 'colors',
             'settings' => 'main_banner_section_texts_color',
             'priority' => 10,
@@ -535,7 +535,7 @@ $wp_customize->add_control(
         $wp_customize,
         'archive_widget_section_title',
         array(
-            'label' => esc_html__('Archive/Widget Section ', 'newsphere'),
+            'label' => __('Archive/Widget Section ', 'newsphere'),
             'section' => 'colors',
             'priority' => 10,
             'active_callback' => 'global_site_mode_status'
@@ -558,7 +558,7 @@ $wp_customize->add_control(
         $wp_customize,
         'title_link_color',
         array(
-            'label' => esc_html__('Post Title', 'newsphere'),
+            'label' => __('Post Title', 'newsphere'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 10,
@@ -581,7 +581,7 @@ $wp_customize->add_control(
         $wp_customize,
         'title_over_image_color',
         array(
-            'label' => esc_html__('Post Title Over Image', 'newsphere'),
+            'label' => __('Post Title Over Image', 'newsphere'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 10,
@@ -602,7 +602,7 @@ $wp_customize->add_control(
         $wp_customize,
         'footer_mailchimp_section_title',
         array(
-            'label' => esc_html__('Mailchimp Section ', 'newsphere'),
+            'label' => __('Mailchimp Section ', 'newsphere'),
             'section' => 'colors',
             'priority' => 10,
             'active_callback' => 'global_site_mode_status'
@@ -624,7 +624,7 @@ $wp_customize->add_control(
         $wp_customize,
         'footer_mailchimp_background_color',
         array(
-            'label' => esc_html__('Background color', 'newsphere'),
+            'label' => __('Background color', 'newsphere'),
             'section' => 'colors',
             'settings' => 'footer_mailchimp_background_color',
             'priority' => 10,
@@ -647,7 +647,7 @@ $wp_customize->add_control(
         $wp_customize,
         'footer_mailchimp_text_color',
         array(
-            'label' => esc_html__('Title color', 'newsphere'),
+            'label' => __('Title color', 'newsphere'),
             'section' => 'colors',
             'settings' => 'footer_mailchimp_text_color',
             'priority' => 10,
@@ -664,7 +664,7 @@ $wp_customize->add_control(
 // Single Section.
 $wp_customize->add_section('site_category_color_settings',
     array(
-        'title' => esc_html__('Category Colors', 'newsphere'),
+        'title' => __('Category Colors', 'newsphere'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -702,7 +702,7 @@ for ($i = 1; $i <= 7; $i++) {
 // font Section.
 $wp_customize->add_section('font_typo_section',
     array(
-        'title' => esc_html__('Fonts & Typography', 'newsphere'),
+        'title' => __('Fonts & Typography', 'newsphere'),
         'priority' => 10,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -722,7 +722,7 @@ $wp_customize->add_setting('primary_font',
 );
 $wp_customize->add_control('primary_font',
     array(
-        'label' => esc_html__('Primary Font', 'newsphere'),
+        'label' => __('Primary Font', 'newsphere'),
         'section' => 'font_typo_section',
         'type' => 'select',
         'choices' => $newsphere_google_fonts,
@@ -740,7 +740,7 @@ $wp_customize->add_setting('secondary_font',
 );
 $wp_customize->add_control('secondary_font',
     array(
-        'label' => esc_html__('Secondary Font', 'newsphere'),
+        'label' => __('Secondary Font', 'newsphere'),
         'section' => 'font_typo_section',
         'type' => 'select',
         'choices' => $newsphere_google_fonts,
@@ -758,7 +758,7 @@ $wp_customize->add_setting('letter_spacing',
 );
 $wp_customize->add_control('letter_spacing',
     array(
-        'label' => esc_html__('Global Letter Spacing', 'newsphere'),
+        'label' => __('Global Letter Spacing', 'newsphere'),
         'section' => 'font_typo_section',
         'type' => 'number',
         'priority' => 110,
@@ -775,7 +775,7 @@ $wp_customize->add_setting('line_height',
 );
 $wp_customize->add_control('line_height',
     array(
-        'label' => esc_html__('Global Line height', 'newsphere'),
+        'label' => __('Global Line height', 'newsphere'),
         'section' => 'font_typo_section',
         'type' => 'number',
         'priority' => 110,
@@ -793,7 +793,7 @@ $wp_customize->add_setting('main_banner_silder_caption_font_size',
 );
 $wp_customize->add_control('main_banner_silder_caption_font_size',
     array(
-        'label' => esc_html__('Main Banner Slider Caption Size', 'newsphere'),
+        'label' => __('Main Banner Slider Caption Size', 'newsphere'),
         'section' => 'font_typo_section',
         'type' => 'number',
         'priority' => 110,
@@ -812,7 +812,7 @@ $wp_customize->add_setting('newsphere_section_title_font_size',
 
 $wp_customize->add_control('newsphere_section_title_font_size',
     array(
-        'label' => esc_html__('Global Section Title Size', 'newsphere'),
+        'label' => __('Global Section Title Size', 'newsphere'),
         'section' => 'font_typo_section',
         'type' => 'number',
         'priority' => 110,
@@ -831,7 +831,7 @@ $wp_customize->add_setting('newsphere_page_posts_title_font_size',
 
 $wp_customize->add_control('newsphere_page_posts_title_font_size',
     array(
-        'label' => esc_html__('Page/Posts Title Size', 'newsphere'),
+        'label' => __('Page/Posts Title Size', 'newsphere'),
         'section' => 'font_typo_section',
         'type' => 'number',
         'priority' => 110,

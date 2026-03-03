@@ -3,18 +3,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Language: ar\n"
-"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+"Plural-Forms: nplurals=6; plural=(n==0?0:n==1?1:n==2?2:n%100>=3&&n%100<=10?3:n%100>=11?4:5);\n"
 "X-Generator: Advanced Localization Tool 2026\n"
 
-msgid "Newsphere"
-msgstr "نيوسفير"
+msgid "Newsphere Pro"
+msgstr "نيوسفير برو"
 
-msgid "https://afthemes.com/products/newsphere/"
-msgstr "https://afthemes.com/products/newsphere/"
+msgid "https://afthemes.com/products/newsphere-pro/"
+msgstr "https://afthemes.com/products/newsphere-pro/"
 
 msgid ""
-"Newsphere is a perfect news and magazine responsive WordPress theme that "
-"lets you write articles and blog posts with ease. Create a great news "
+"Newsphere Pro is a perfect news and magazine responsive WordPress theme that"
+" lets you write articles and blog posts with ease. Create a great news "
 "website the help of live customizer options and custom widgets, you can "
 "design your website as you like and preview the changes live. It is "
 "compatible with the Gutenberg and RTL along with WooCommerce plugin which "
@@ -25,12 +25,11 @@ msgid ""
 "that helps to rank your website in the top of search engines and users will "
 "get an outstanding support from the team if there will be any difficulties "
 "while using the theme. There are number of demos available in this theme so "
-"choose the one you like and start to build a website. See our demos: "
-"https://afthemes.com/products/newsphere/#aft-view-starter-sites Videos: "
-"https://www.youtube.com/@wpafthemes/ and Docs: "
-"https://docs.afthemes.com/newsphere/"
+"choose the one you like and start to build a website.  See our demos: "
+"https://afthemes.com/newsphere-pro-perfect-news-and-magazine-responsive-"
+"wordpress-theme/"
 msgstr ""
-"Newsphere عبارة عن سمة WordPress مثالية للأخبار والمجلات تتيح لك كتابة "
+"Newsphere Pro عبارة عن سمة WordPress مثالية للأخبار والمجلات تتيح لك كتابة "
 "المقالات ومنشورات المدونات بسهولة. قم بإنشاء موقع ويب إخباري رائع بمساعدة "
 "خيارات التخصيص المباشر والأدوات المخصصة، ويمكنك تصميم موقع الويب الخاص بك "
 "كما تريد ومعاينة التغييرات مباشرة. وهو متوافق مع Gutenberg وRTL بالإضافة إلى"
@@ -41,10 +40,9 @@ msgstr ""
 " بشكل جيد مما يساعد على تصنيف موقع الويب الخاص بك في أعلى محركات البحث "
 "وسيحصل المستخدمون على دعم متميز من الفريق إذا كانت هناك أي صعوبات أثناء "
 "استخدام السمة. هناك عدد من العروض التوضيحية المتوفرة في هذا الموضوع، لذا "
-"اختر العرض الذي يعجبك وابدأ في إنشاء موقع ويب. شاهد عروضنا التوضيحية: "
-"https://afthemes.com/products/newsphere/#aft-view-starter-sites مقاطع "
-"الفيديو: https://www.youtube.com/@wpafthemes/ والمستندات: "
-"https://docs.afthemes.com/newsphere/"
+"اختر العرض الذي يعجبك وابدأ في إنشاء موقع ويب.  شاهد عروضنا التوضيحية: "
+"https://afthemes.com/newsphere-pro-perfect-news-and-magazine-response-"
+"wordpress-theme/"
 
 msgid "AF themes"
 msgstr "AF themes"
@@ -53,7 +51,7 @@ msgid "https://www.afthemes.com/"
 msgstr "https://www.afthemes.com/"
 
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "عذراً! لايمكن العثور على تلك الصفحة."
+msgstr "أُووبس! لا يمكن العثور على تلك الصفحة."
 
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links"
@@ -62,26 +60,26 @@ msgstr ""
 "It looks like nothing was found at this location. Maybe try one of the links"
 " below or a search?"
 
-msgid "Dashboard"
-msgstr "لوحة التحكم"
-
-msgid "Customize"
-msgstr "تخصيص"
-
 msgid "Starter Sites"
-msgstr "مواقع البداية"
-
-msgid "Elementor Kits"
-msgstr "مجموعات العنصر"
+msgstr "المواقع البادئة"
 
 msgid "Block Patterns"
 msgstr "أنماط المكوِّن"
 
-msgid "Upgrade to Pro"
-msgstr "الترقية إلى برو"
+msgid "Elementor Kits"
+msgstr "مجموعات العنصر"
 
-msgid "Upgrade Now"
-msgstr "الترقية الآن"
+msgid "Customize"
+msgstr "تخصيص"
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "Support"
+msgstr "الدعم الفني"
+
+msgid "Master Bundle Plan"
+msgstr "خطة الحزمة الرئيسية"
 
 msgid "The Templatespare plugin should be updated to the latest version"
 msgstr "يجب تحديث البرنامج المساعد Templatespare إلى الإصدار الأحدث"
@@ -92,22 +90,11 @@ msgstr "قم باستيراد موقع مبدئي وتخصيصه وتشغيله 
 msgid "Blockspare plugin version should be more than %s."
 msgstr "يجب أن يكون إصدار البرنامج الإضافي Blockspare أكثر من %s."
 
-msgid ""
-"One-click Demo Import, Block Editor Ready, No Code Required! Built with "
-"Blockspare."
-msgstr ""
-"استيراد العرض التوضيحي بنقرة واحدة، ومحرر الكتل جاهز، ولا يلزم وجود كود! "
-"بنيت مع Blockspare."
+msgid "One-click Import, No Coding Hassle!"
+msgstr "استيراد بنقرة واحدة، لا توجد متاعب في البرمجة!"
 
 msgid "Elespare plugin version should be more than %s."
 msgstr "يجب أن يكون إصدار البرنامج الإضافي Elespare أكثر من %s."
-
-msgid ""
-"One-click Import, Header/Footer Builder, Multilingual Support! Powered by "
-"Elespare."
-msgstr ""
-"استيراد بنقرة واحدة، ومنشئ الرأس/التذييل، ودعم متعدد اللغات! مدعوم من "
-"إليسبير."
 
 msgid "Are you sure you want to install this plugin?"
 msgstr "هل أنت متأكد من رغبتك بتنصيب هذه الإضافة؟"
@@ -125,7 +112,7 @@ msgid "Get Starter Sites"
 msgstr "احصل على مواقع البداية"
 
 msgid "Get Started"
-msgstr "ابدأ"
+msgstr "الشروع في ..."
 
 msgid ""
 "The \"Get Started\" action will install/activate the Templatespare and "
@@ -140,50 +127,59 @@ msgstr "بواسطة"
 msgid "More Details"
 msgstr "تفاصيل أكثر"
 
-msgid "👋 Welcome, and Thank You!"
-msgstr "👋 مرحبًا، شكرًا لك!"
+msgid ""
+"The \"Get Started\" action will install/activate the Templatespare plugin "
+"for Starter Sites and Templates."
+msgstr ""
+"سيؤدي إجراء \"البدء\" إلى تثبيت/تنشيط المكون الإضافي Templatespare لمواقع "
+"البدء والقوالب."
+
+msgid "Howdy!"
+msgstr "مرحبًا!"
 
 msgid ""
-"%s is now active. We're here to help you turn your ideas into a beautiful, professional website — quickly and confidently.\n"
-"\n"
-"        "
-msgstr ""
-"%s نشط الآن. نحن هنا لمساعدتك في تحويل أفكارك إلى موقع ويب جميل واحترافي - "
-"بسرعة وثقة."
+"%s is now installed and ready to use. We've assembled some links to get you "
+"started."
+msgstr "%s الآن منصب وجاهز للاستخدام. لقد جمعنا بعض الروابط لتبدأ."
 
-msgid "🚀 Start With One Click"
-msgstr "🚀 ابدأ بنقرة واحدة"
+msgid "Explore Our Pre-Built Starter Websites!"
+msgstr "استكشف مواقعنا الإلكترونية المعدة مسبقًا!"
 
 msgid ""
-"Choose from 100+ starter sites designed for blogs, magazines, businesses & more.\n"
-"      Setup is simple — no coding required."
+"Let your imagination soar! Designed with User-Friendly features, "
+"incorporating the Latest Trends and SEO-Friendly Markups. We genuinely "
+"appreciate you choosing our theme!"
 msgstr ""
-"اختر من بين أكثر من 100 موقع مبتدئ مصمم للمدونات والمجلات والشركات والمزيد.\n"
-"      الإعداد بسيط - لا يتطلب أي ترميز."
+"دع خيالك يرتفع! تم تصميمه بميزات سهلة الاستخدام، تتضمن أحدث الاتجاهات وهوامش"
+" الربح الملائمة لمحركات البحث (SEO). نحن نقدر حقًا اختيارك لموضوعنا!"
 
-msgid "View Demos"
-msgstr "شاهد العرض التوضيحي"
+msgid "Demos/product"
+msgstr "العروض التوضيحية/المنتج"
 
 msgid "Theme dashboard"
 msgstr "لوحة تحكم الموضوع"
 
-msgid "🤝 We're Here for You"
-msgstr "🤝 نحن هنا من أجلك"
-
-msgid "Whether you're just starting or customizing your site."
-msgstr "سواء كنت بدأت للتو أو قمت بتخصيص موقعك."
-
 msgid "Documentation"
 msgstr "الوثائق"
+
+msgid ""
+"Please check our full documentation for detailed information on how to setup"
+" and customize the theme."
+msgstr ""
+"يرجى مراجعة وثائقنا الكاملة للحصول على معلومات مفصلة حول كيفية إعداد السمة "
+"وتخصيصها."
+
+msgid "Docs"
+msgstr "المستندات"
 
 msgid "Videos"
 msgstr "Vídeos"
 
-msgid "Support"
-msgstr "الدعم الفني"
+msgid "Blog"
+msgstr "المدونة"
 
-msgid "⭐ Rate This Theme"
-msgstr "⭐ قيم هذا الموضوع"
+msgid "Rate This Theme"
+msgstr "قيم هذا الموضوع"
 
 msgid "Sorry, you are not allowed to install plugins on this site."
 msgstr "عفوًا، غير مسموح لك بتنصيب الإضافات على هذا الموقع."
@@ -195,7 +191,7 @@ msgid "Sorry, you are not allowed to activate plugins on this site."
 msgstr "عذرًا، غير مسموح لك بتفعيل المكونات الإضافية على هذا الموقع."
 
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "تعليق واحد على &ldquo;%1$s&rdquo;"
+msgstr "فكرة واحدة عن &ldquo;%1$s&rdquo;"
 
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
@@ -222,16 +218,15 @@ msgstr "القائمة الاجتماعية"
 msgid "Footer Menu"
 msgstr "قائمة شريط التذييل"
 
-msgctxt "Roboto Sans Pro font: on or off"
-msgid "on"
-msgstr "على"
-
-msgctxt "Rubik font: on or off"
+msgctxt "%s font: on or off"
 msgid "on"
 msgstr "على"
 
 msgid "Skip to content"
 msgstr "تخطي إلى المحتوى"
+
+msgid "Load More"
+msgstr "حمل أكثر"
 
 msgid "All"
 msgstr "الكل"
@@ -269,11 +264,14 @@ msgstr "اقرأ المزيد"
 msgid "More Stories"
 msgstr "المزيد من القصص"
 
+msgid "Subscribe To  Our Newsletter"
+msgstr "اشترك في النشرة الإخبارية لدينا"
+
 msgid "You may have missed"
 msgstr "لربما فاتك"
 
 msgid "Copyright &copy; All rights reserved."
-msgstr "حقوق النشر والنسخ؛ جميع الحقوق محفوظة."
+msgstr "Copyright &copy; All rights reserved."
 
 msgid "Site Title Size"
 msgstr "حجم عنوان الصفحة"
@@ -283,12 +281,6 @@ msgstr "عنوان الموقع/لون الشعار"
 
 msgid "Disable Image Tint/Overlay"
 msgstr "تعطيل صبغة/تراكب الصورة"
-
-msgid "Newsphere Pro"
-msgstr "نيوسفير برو"
-
-msgid "Upgrade now"
-msgstr "قم بالترقية الآن"
 
 msgid "Global Color Section "
 msgstr "قسم الألوان العالمية"
@@ -314,8 +306,11 @@ msgstr "اللون الأساسي"
 msgid "Secondary Color"
 msgstr "اللون الثانوي"
 
-msgid "Single Title Color"
-msgstr "لون عنوان واحد"
+msgid "Texts Over Secondary Color"
+msgstr "النصوص على اللون الثانوي"
+
+msgid "General Title Color"
+msgstr "لون العنوان العام"
 
 msgid "General Link Color"
 msgstr "لون الرابط العام"
@@ -347,8 +342,8 @@ msgstr "لون عنصر القائمة"
 msgid "Badge Background"
 msgstr "خلفية الشارة"
 
-msgid "Badge Color"
-msgstr "لون العلامة"
+msgid "Badge Texts Color"
+msgstr "لون نصوص الشارة"
 
 msgid "Main Banner Section "
 msgstr "قسم البانر الرئيسي"
@@ -365,17 +360,32 @@ msgstr "عنوان المقالة"
 msgid "Post Title Over Image"
 msgstr "عنوان المشاركة على الصورة"
 
+msgid "Category Color Section "
+msgstr "قسم لون الفئة"
+
+msgid "Category %d"
+msgstr "الفئة %d"
+
 msgid "Mailchimp Section "
 msgstr "قسم ميل تشيمب"
 
 msgid "Title color"
 msgstr "لون العنوان"
 
-msgid "Category Colors"
-msgstr "ألوان التصنيف"
+msgid "Footer Section "
+msgstr "قسم التذييل"
 
-msgid "Category %d Background Color"
-msgstr "الفئة %d لون الخلفية"
+msgid "Footer background color"
+msgstr "لون خلفية التذييل"
+
+msgid "Footer texts color"
+msgstr "لون نصوص التذييل"
+
+msgid "Footer credits background color"
+msgstr "لون خلفية اعتمادات التذييل"
+
+msgid "Footer credits texts color"
+msgstr "لون نصوص اعتمادات التذييل"
 
 msgid "Fonts & Typography"
 msgstr "الخطوط والطباعة"
@@ -389,17 +399,35 @@ msgstr "الخط الثانوي"
 msgid "Global Letter Spacing"
 msgstr "تباعد الحروف العالمية"
 
+msgid "Default: 0"
+msgstr "الافتراضي: 0"
+
+msgid "Default: 1.3"
+msgstr "الافتراضي: 1.3"
+
 msgid "Global Line height"
 msgstr "ارتفاع الخط العالمي"
 
-msgid "Main Banner Slider Caption Size"
-msgstr "حجم التسمية التوضيحية لشريط تمرير الشعار الرئيسي"
+msgid "Default: 22"
+msgstr "الافتراضي: 22"
 
-msgid "Global Section Title Size"
-msgstr "حجم عنوان القسم العالمي"
+msgid "Section Title Size"
+msgstr "حجم عنوان القسم"
 
-msgid "Page/Posts Title Size"
-msgstr "حجم عنوان الصفحة/المشاركات"
+msgid "Default: 16"
+msgstr "الافتراضي: 16"
+
+msgid "General Posts Title Size"
+msgstr "حجم عنوان المشاركات العامة"
+
+msgid "Spotlight Post Title Size"
+msgstr "حجم عنوان مشاركة Spotlight"
+
+msgid "Spotlight Post Title Over Image Size"
+msgstr "تسليط الضوء على عنوان المشاركة على حجم الصورة"
+
+msgid "Single Post/Page Title Size"
+msgstr "حجم عنوان المنشور/الصفحة الواحدة"
 
 msgid "Frontpage Options"
 msgstr "مقارنة الخيارات"
@@ -416,11 +444,38 @@ msgstr "الحجم الموصى به %1$s px X %2$s px"
 msgid "URL Link"
 msgstr "رابط URL"
 
+msgid "Open in new tab"
+msgstr "فتح في علامة تبويب جديدة"
+
+msgid "Show banner advertisement on"
+msgstr "عرض لافتة إعلانية على"
+
+msgid "Select scope to display on banner advertisement section"
+msgstr "حدد النطاق لعرضه في قسم إعلانات البانر"
+
+msgid "Show on Homepage only"
+msgstr "العرض على الصفحة الرئيسية فقط"
+
+msgid "Show sitewide"
+msgstr "عرض على مستوى الموقع"
+
 msgid "Enable Popular Tags Section"
 msgstr "تمكين قسم العلامات الشعبية"
 
 msgid "Section Title"
 msgstr "عنوان القسم"
+
+msgid "Number of Popular Tags "
+msgstr "عدد العلامات الشائعة"
+
+msgid "Select Tags Type"
+msgstr "حدد نوع العلامات"
+
+msgid "Post Tags"
+msgstr "وسوم المقال"
+
+msgid "Post Categories"
+msgstr "تصنيفات المقالة"
 
 msgid "Exclusive Posts"
 msgstr "مشاركات حصرية"
@@ -437,11 +492,32 @@ msgstr "فئة المشاركات الحصرية"
 msgid "Posts to be shown on trending posts "
 msgstr "المشاركات التي سيتم عرضها على المشاركات الشائعة"
 
+msgid "Number of Exclusive Posts "
+msgstr "عدد المشاركات الحصرية"
+
 msgid "Main Banner Section"
 msgstr "قسم البانر الرئيسي"
 
 msgid "Enable Main Banner Section"
 msgstr "تمكين قسم الشعار الرئيسي"
+
+msgid "Select Banner Section Mode"
+msgstr "حدد وضع قسم الشعار"
+
+msgid "Slider and Tabbed Section"
+msgstr "قسم المنزلق والمبوب"
+
+msgid "Carousel and Tabbed Section"
+msgstr "قسم دائري ومبوب"
+
+msgid "Select Banner Section Order"
+msgstr "حدد ترتيب قسم الشعار"
+
+msgid "Order 1"
+msgstr "الطلب 1"
+
+msgid "Order 2"
+msgstr "الطلب 2"
 
 msgid "Background image"
 msgstr "الصورة الخلفية"
@@ -458,14 +534,29 @@ msgstr "تصنيف"
 msgid "Posts to be shown on vertical slider section"
 msgstr "المشاركات التي سيتم عرضها في قسم شريط التمرير العمودي"
 
+msgid "Number of Slides"
+msgstr "عدد شرائح العرض"
+
+msgid "Accepts any postive number."
+msgstr "يقبل أي رقم إيجابي."
+
 msgid "Main Slider Section "
 msgstr "قسم المنزلق الرئيسي"
 
 msgid "Posts to be shown on main slider section"
 msgstr "المشاركات التي سيتم عرضها في قسم شريط التمرير الرئيسي"
 
-msgid "Tabbed Section "
-msgstr "القسم المبوب"
+msgid "Tabbed/Thumbs Section"
+msgstr "قسم المبوب/الإبهام"
+
+msgid "Select Section Mode"
+msgstr "حدد وضع القسم"
+
+msgid "Tabbed"
+msgstr "كلفه"
+
+msgid "Thumbs"
+msgstr "الابهام"
 
 msgid "Latest Tab Title"
 msgstr "أضف عنوان التبويب"
@@ -476,8 +567,8 @@ msgstr "عنوان علامة التبويب الشائعة"
 msgid "Trending Tab Title"
 msgstr "عنوان علامة التبويب الشائعة"
 
-msgid "Posts to be shown on trending tab"
-msgstr "المشاركات التي سيتم عرضها في علامة التبويب \"الرائجة\"."
+msgid "Posts to be shown on trending tab or on thumbs"
+msgstr "سيتم عرض المشاركات في علامة التبويب \"الرائجة\" أو على \"الإبهام\"."
 
 msgid "Disable Main Banner section on Static Posts page"
 msgstr "تعطيل قسم الشعار الرئيسي في صفحة المشاركات الثابتة"
@@ -496,6 +587,27 @@ msgstr "فئة المشاركات المميزة"
 
 msgid "Posts to be shown on featured section "
 msgstr "المشاركات التي سيتم عرضها في القسم المميز"
+
+msgid "Number of featured news"
+msgstr "عدد الأخبار المميزة"
+
+msgid "Accepts any positive number."
+msgstr "يقبل أي رقم موجب."
+
+msgid "Enable Editor Pick Section"
+msgstr "تمكين قسم اختيار المحرر"
+
+msgid "Editors Pick Section Title"
+msgstr "المحررون يختارون عنوان القسم"
+
+msgid "Editors Pick Category"
+msgstr "المحررون يختارون الفئة"
+
+msgid "Posts to be shown on editors pick section "
+msgstr "المشاركات التي سيتم عرضها في قسم اختيار المحررين"
+
+msgid "Number of editors pick news"
+msgstr "عدد المحررين الذين يختارون الأخبار"
 
 msgid "Frontpage Layout Settings"
 msgstr "إعدادات تخطيط الصفحة الأولى"
@@ -527,6 +639,18 @@ msgstr "تفعيل التحميل المسبق"
 msgid "Header Options"
 msgstr "خيارات الترويسة"
 
+msgid "Header Layout"
+msgstr "تنسيق الشريط العلوي"
+
+msgid "Select global header layout"
+msgstr "حدد تخطيط الرأس العالمي"
+
+msgid "Default Layout"
+msgstr "التخطيط الافتراضي"
+
+msgid "Centered Layout"
+msgstr "تخطيط مركزي"
+
 msgid "Show date on top header"
 msgstr "إظهار التاريخ في أعلى الصفحة"
 
@@ -554,6 +678,9 @@ msgstr "إضافة Rank Math"
 msgid "NavXT"
 msgstr "NavXT"
 
+msgid "Enable Sticky Header"
+msgstr "تفعيل ترويسة مثبّتة"
+
 msgid "Sidebar Settings"
 msgstr "إعدادات الشريط الجانبي"
 
@@ -572,6 +699,18 @@ msgstr "أسفل"
 msgid "Global Settings"
 msgstr "إعدادات عامة"
 
+msgid "Home Menu Icon"
+msgstr "أيقونة القائمة الرئيسية"
+
+msgid "Show"
+msgstr "عرض"
+
+msgid "Hide"
+msgstr "إخفاء"
+
+msgid "Menu Border"
+msgstr "حدود القائمة"
+
 msgid "Language Switcher Shortcode"
 msgstr "الرمز القصير لمحول اللغة"
 
@@ -586,15 +725,6 @@ msgstr "الشريط الجانبي الأساسي - المحتوى"
 
 msgid "Full width content"
 msgstr "محتوى العرض الكامل"
-
-msgid "Post Categories"
-msgstr "تصنيفات المقالة"
-
-msgid "Show"
-msgstr "عرض"
-
-msgid "Hide"
-msgstr "إخفاء"
 
 msgid "Comment Count"
 msgstr "عدد التعليقات"
@@ -653,6 +783,18 @@ msgstr "مقالة منفردة"
 msgid "Show on featured image"
 msgstr "تظهر على الصورة المميزة"
 
+msgid "Featured image view"
+msgstr "عرض الصورة المميزة"
+
+msgid "Select content view for featured image"
+msgstr "حدد عرض المحتوى للصورة المميزة"
+
+msgid "Boxed - Default"
+msgstr "محاصر - افتراضي"
+
+msgid "Full"
+msgstr "كامل"
+
 msgid "Single Content mode"
 msgstr "وضع المحتوى الفردي"
 
@@ -674,8 +816,26 @@ msgstr "تظهر على المشاركات الفردية"
 msgid "Title"
 msgstr "العنوان"
 
+msgid "Maximum Number of Related Posts"
+msgstr "الحد الأقصى لعدد المشاركات ذات الصلة"
+
 msgid "Archive Settings"
 msgstr "إعدادات الأرشيف"
+
+msgid "Archive layout"
+msgstr "تخطيط الأرشيف"
+
+msgid "Select layout for archive"
+msgstr "حدد تخطيط للأرشيف"
+
+msgid "List"
+msgstr "القائمة"
+
+msgid "Grid"
+msgstr "الشبكة"
+
+msgid "Masonry"
+msgstr "البناء"
 
 msgid "Image alignment"
 msgstr "محاذاة الصورة"
@@ -692,6 +852,73 @@ msgstr "يمين"
 msgid "Alternate"
 msgstr "البديل"
 
+msgid "Alternate with Full "
+msgstr "البديل مع كامل"
+
+msgid "Alternate with List"
+msgstr "البديل مع القائمة"
+
+msgid "Content view"
+msgstr "عرض المحتوى"
+
+msgid "Select content view for archive"
+msgstr "حدد عرض المحتوى للأرشيف"
+
+msgid "Post excerpt"
+msgstr "مقتطف المقالة"
+
+msgid "Full Content"
+msgstr "المحتوى الكامل"
+
+msgid "None"
+msgstr "بدون"
+
+msgid "Pagination"
+msgstr "تعدد الصفحات"
+
+msgid "Select pagination view for archive"
+msgstr "حدد عرض ترقيم الصفحات للأرشيف"
+
+msgid "Ajax load more"
+msgstr "اياكس تحميل المزيد"
+
+msgid "Infinite scroll"
+msgstr "التمرير اللانهائي"
+
+msgid "Mailchimp Subscriptions"
+msgstr "اشتراكات ميل تشيمب"
+
+msgid "Show above footer"
+msgstr "إظهار أعلى التذييل"
+
+msgid "Shortcode"
+msgstr "الكود القصير"
+
+msgid "Visible in:"
+msgstr "مرئي في:"
+
+msgid "Front page only"
+msgstr "الصفحة الأولى فقط"
+
+msgid "All pages"
+msgstr "جميع الصفحات"
+
+msgid "Instagram username"
+msgstr "اسم مستخدم انستقرام"
+
+msgid "Graph API Access Token"
+msgstr "رمز الوصول إلى واجهة برمجة تطبيقات الرسم البياني"
+
+msgid ""
+"Please use your instagram app access token if you aleady have, Otherwise "
+"create new: \"https://developers.facebook.com/docs/instagram-api/"
+msgstr ""
+"يرجى استخدام رمز الوصول إلى تطبيق instagram الخاص بك إذا كان لديك بالفعل، "
+"وإلا قم بإنشاء جديد: \"https://developers.facebook.com/docs/instagram-api/"
+
+msgid "Number of Instagram posts"
+msgstr "عدد منشورات الانستقرام"
+
 msgid "You May Have Missed"
 msgstr "قد تكون قد فاتتك"
 
@@ -701,11 +928,17 @@ msgstr "عرض قسم أحدث المشاركات أعلى التذييل"
 msgid "Posts Section Title"
 msgstr "عنوان قسم المشاركات"
 
+msgid "Number of Posts"
+msgstr "عدد المقالات"
+
 msgid "Footer"
 msgstr "شريط التذييل"
 
 msgid "Copyright Text"
 msgstr "نص حقوق النشر"
+
+msgid "Hide theme credits"
+msgstr "إخفاء اعتمادات الموضوع"
 
 msgid "Pages:"
 msgstr "الصفحات:"
@@ -731,6 +964,9 @@ msgstr "المحتوى - الشريط الجانبي الأساسي"
 msgid "Primary Sidebar - Content"
 msgstr "الشريط الجانبي الأساسي - المحتوى"
 
+msgid "Content Mode"
+msgstr "وضع المحتوى"
+
 msgid "Category Color 1"
 msgstr "لون الفئة 1"
 
@@ -739,6 +975,18 @@ msgstr "لون الفئة 2"
 
 msgid "Category Color 3"
 msgstr "لون الفئة 3"
+
+msgid "Category Color 4"
+msgstr "لون الفئة 4"
+
+msgid "Category Color 5"
+msgstr "فئة اللون 5"
+
+msgid "Category Color 6"
+msgstr "فئة اللون 6"
+
+msgid "Category Color 7"
+msgstr "فئة اللون 7"
 
 msgid "Color Class"
 msgstr "فئة اللون"
@@ -750,8 +998,29 @@ msgstr ""
 "إختر قئة لون التصنيف. بإمكانك ضبط لون التصنيف الملائم من قسم التصنيفات لمخصص"
 " القالب"
 
-msgid "Templatespare"
-msgstr "قطع القوالب"
+msgid "list"
+msgstr "قائمة"
+
+msgid "Masonary"
+msgstr "البناء"
+
+msgid "Alternate with full"
+msgstr "البديل مع الكامل"
+
+msgid "Alternate with list"
+msgstr "البديل مع القائمة"
+
+msgid "Archive Alignment"
+msgstr "محاذاة الأرشيف"
+
+msgid "Select alignment for list archive layout"
+msgstr "حدد المحاذاة لتخطيط أرشيف القائمة"
+
+msgid "Select alignment for gird archive layout"
+msgstr "حدد المحاذاة لتخطيط أرشيف gird"
+
+msgid "AF Companion"
+msgstr "رفيق AF"
 
 msgid "Elespare"
 msgstr "إليسبار"
@@ -759,65 +1028,23 @@ msgstr "إليسبار"
 msgid "Blockspare"
 msgstr "بلوكسبير"
 
+msgid "Templatespare"
+msgstr "قطع القوالب"
+
+msgid "Latest Posts Block"
+msgstr "أحدث المشاركات بلوك"
+
+msgid "Magic Content Box"
+msgstr "صندوق المحتوى السحري"
+
 msgid "WP Post Author"
 msgstr "مؤلف مشاركة الفسفور الأبيض"
 
 msgid "Free Live Chat using 3CX"
 msgstr "دردشة حية مجانية باستخدام 3CX"
 
-msgid ""
-"Howdy, %1$s! We've noticed that you've been using %2$s for some time now, we"
-" hope you are loving it! We would appreciate it if you can %3$sgive us a 5 "
-"star rating on WordPress.org%4$s! We'll continue to develop exciting new "
-"features for free in the future by sharing the love!"
-msgstr ""
-"مرحبًا، %1$s! لقد لاحظنا أنك تستخدم %2$s منذ بعض الوقت، ونأمل أن تنال "
-"إعجابك! سنكون ممتنين إذا تمكنت %3$s من منحنا تقييم 5 نجوم على "
-"WordPress.org%4$s! سنستمر في تطوير ميزات جديدة ومثيرة مجانًا في المستقبل من "
-"خلال مشاركة الحب!"
-
-msgid "Sure thing"
-msgstr "شيء مؤكد"
-
-msgid "Remind me later"
-msgstr "ذكرني لاحقًا"
-
-msgid "I've already done."
-msgstr "لقد فعلت بالفعل."
-
-msgid "Got any support queries?"
-msgstr "حصلت على أي استفسارات الدعم؟"
-
-msgid "Action failed. Please refresh the page and retry."
-msgstr "فشل الإجراء. يرجى تحديث الصفحة و المحاولة من جديد."
-
-msgid "Cheatin&#8217; huh?"
-msgstr "تتحايل، هاه؟"
-
-msgid ""
-"%1$s 🎁 Hope you're loving our free %2$s theme! Dive into the festive spirit "
-"with an exclusive gift: %4$s premium features! Use code %3$s at checkout. "
-"Wishing you a season filled with joyous holidays and even happier savings! "
-"🎄✨"
-msgstr ""
-"%1$s 🎁 أتمنى أن ينال موضوع %2$s المجاني إعجابك! استمتع بالروح الاحتفالية مع "
-"هدية حصرية: ميزات %4$s المميزة! استخدم الكود %3$s عند الدفع. أتمنى لك موسمًا"
-" مليئًا بالعطلات السعيدة والتوفيرات الأكثر سعادة! 🎄✨"
-
-msgid "Claim Your Discount"
-msgstr "المطالبة بالخصم الخاص بك"
-
-msgid "Power Bundle"
-msgstr "حزمة الطاقة"
-
-msgid "All Themes Plan"
-msgstr "خطة جميع المواضيع"
-
-msgid "Maybe Later"
-msgstr "ربما في وقت لاحق"
-
-msgid "Have Queries?"
-msgstr "هل لديك استفسارات؟"
+msgid "MailChimp for WordPress"
+msgstr "ميل تشيمب لووردبريس"
 
 msgid "Previous"
 msgstr "السابق"
@@ -834,6 +1061,18 @@ msgstr[3] "قراءة %s دقيقة"
 msgstr[4] "قراءة %s دقيقة"
 msgstr[5] "قراءة %s دقيقة"
 
+msgid "Unable to communicate with Instagram."
+msgstr "غير قادر على التواصل مع Instagram."
+
+msgid "Instagram did not return a 200."
+msgstr "لم يعيد Instagram 200."
+
+msgid "Instagram has returned invalid data."
+msgstr "لقد أعاد Instagram بيانات غير صالحة."
+
+msgid "Instagram did not return any images."
+msgstr "لم يُرجع Instagram أي صور."
+
 msgid "View all posts in %s"
 msgstr "عرض كل المقالات في %s"
 
@@ -845,7 +1084,77 @@ msgid " "
 msgstr ""
 
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "تحرير <span class=\"screen-reader-text\">%s</span>"
+msgstr "قم بتحرير <span class=\"screen-reader-text\">%s</span>"
+
+msgid "Theme License"
+msgstr "ترخيص الموضوع"
+
+msgid "Enter your theme license key."
+msgstr "أدخل مفتاح ترخيص السمة الخاصة بك."
+
+msgid "License Key"
+msgstr "مفتاح الترخيص"
+
+msgid "License Action"
+msgstr "إجراء الترخيص"
+
+msgid "Deactivate License"
+msgstr "إلغاء تنشيط الترخيص"
+
+msgid "Activate License"
+msgstr "تفعيل الترخيص"
+
+msgid "License status is unknown."
+msgstr "حالة الترخيص غير معروفة."
+
+msgid "Renew?"
+msgstr "تجديد؟"
+
+msgid "unlimited"
+msgstr "غير محدود"
+
+msgid "License key is active."
+msgstr "مفتاح الترخيص نشط."
+
+msgid "Expires %s."
+msgstr "تنتهي صلاحية %s."
+
+msgid "You have %1$s / %2$s sites activated."
+msgstr "لديك %1$s / %2$s من المواقع النشطة."
+
+msgid "License key expired %s."
+msgstr "انتهت صلاحية مفتاح الترخيص %s."
+
+msgid "License key has expired."
+msgstr "انتهت صلاحية مفتاح الترخيص."
+
+msgid "License keys do not match."
+msgstr "مفاتيح الترخيص غير متطابقة."
+
+msgid "License is inactive."
+msgstr "الترخيص غير نشط."
+
+msgid "License key is disabled."
+msgstr "تم تعطيل مفتاح الترخيص."
+
+msgid "Site is inactive."
+msgstr "الموقع غير نشط."
+
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+"سيؤدي تحديث هذا المظهر إلى فقدان أي تخصيصات قمت بإجرائها. \"إلغاء\" للتوقف، "
+"و\"موافق\" للتحديث."
+
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\""
+" title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update "
+"now</a>."
+msgstr ""
+"<strong>%1$s %2$s</strong> متاح. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">اطلع على الجديد</a> أو <a href=\"%5$s\"%6$s>قم بالتحديث "
+"الآن</a>."
 
 msgid "Displays author info."
 msgstr "يعرض معلومات المؤلف."
@@ -868,11 +1177,20 @@ msgstr "أوصاف"
 msgid "Facebook"
 msgstr "فيسبوك"
 
-msgid "Twitter"
-msgstr "تويتر"
+msgid "Instagram"
+msgstr "إنستغرام"
 
 msgid "Youtube"
 msgstr "Youtube"
+
+msgid "Twitter"
+msgstr "تويتر"
+
+msgid "LinkedIn"
+msgstr "لينكد إن"
+
+msgid "VK"
+msgstr "VK"
 
 msgid "Displays posts carousel from selected category."
 msgstr "يعرض دائري المشاركات من الفئة المحددة."
@@ -883,11 +1201,20 @@ msgstr "AFTN المشاركات دائري"
 msgid "Select category"
 msgstr "اختر التصنيف"
 
+msgid "Number of posts"
+msgstr "عدد المشاركات"
+
 msgid "Displays posts from 2 selected categories in double column."
 msgstr "يعرض المشاركات من فئتين محددتين في عمود مزدوج."
 
 msgid "AFTN Double Categories Posts"
 msgstr "AFTN فئات مزدوجة المشاركات"
+
+msgid "Big thumb in first and other in list"
+msgstr "الإبهام الكبير في الأول والآخر في القائمة"
+
+msgid "All in list"
+msgstr "الكل في القائمة"
 
 msgid "Title 1"
 msgstr "العنوان 1"
@@ -895,23 +1222,59 @@ msgstr "العنوان 1"
 msgid "Select category 1"
 msgstr "اختر التصنيف 1"
 
+msgid "Number of posts 1"
+msgstr "عدد المشاركات 1"
+
 msgid "Title 2"
 msgstr "العنوان 2"
 
 msgid "Select category 2"
 msgstr "اختر التصنيف 2"
 
-msgid "Displays posts from selected category in a list."
-msgstr "يعرض المشاركات من الفئة المحددة في القائمة."
+msgid "Number of posts 2"
+msgstr "عدد المشاركات 2"
 
-msgid "AFTN Posts List"
-msgstr "قائمة المشاركات AFTN"
+msgid "Displays posts from selected category in a grid."
+msgstr "يعرض المشاركات من الفئة المحددة في الشبكة."
+
+msgid "AFTN Posts Express Grid"
+msgstr "AFTN المشاركات الشبكة السريعة"
 
 msgid "Yes"
 msgstr "نعم"
 
 msgid "No"
 msgstr "لا"
+
+msgid "Posts Express Grid"
+msgstr "المشاركات اكسبرس الشبكة"
+
+msgid "Displays posts from selected category in an express list."
+msgstr "يعرض المشاركات من الفئة المحددة في قائمة صريحة."
+
+msgid "AFTN Posts Express List"
+msgstr "قائمة المشاركات السريعة لـ AFTN"
+
+msgid "Posts Express List"
+msgstr "قائمة المشاركات السريعة"
+
+msgid "Show excerpt"
+msgstr "إظهار المقتطف"
+
+msgid "Excerpt length"
+msgstr "طول المقتطف"
+
+msgid "AFTN Posts Grid"
+msgstr "شبكة المشاركات AFTN"
+
+msgid "Posts Grid"
+msgstr "شبكة المشاركات"
+
+msgid "Displays posts from selected category in a list."
+msgstr "يعرض المشاركات من الفئة المحددة في القائمة."
+
+msgid "AFTN Posts List"
+msgstr "قائمة المشاركات AFTN"
 
 msgid "Posts List"
 msgstr "قائمة المقالات"
@@ -921,9 +1284,6 @@ msgstr "يعرض المشاركات من الفئة المحددة في عمود
 
 msgid "AFTN Single Column "
 msgstr "AFTN عمود واحد"
-
-msgid "Show excerpt"
-msgstr "إظهار المقتطف"
 
 msgid "Displays posts slider from selected category."
 msgstr "يعرض شريط تمرير المشاركات من الفئة المحددة."
@@ -955,6 +1315,12 @@ msgstr "المشاركات المصنفة"
 msgid "Enable Categorised Tab"
 msgstr "تمكين علامة التبويب المصنفة"
 
+msgid "Settings for all tabs"
+msgstr "الإعدادات لجميع علامات التبويب"
+
+msgid "Number of posts per tab"
+msgstr "عدد المشاركات لكل علامة تبويب"
+
 msgid "Displays social contacts lists from selected settings."
 msgstr "يعرض قوائم جهات الاتصال الاجتماعية من الإعدادات المحددة."
 
@@ -970,6 +1336,18 @@ msgid ""
 msgstr ""
 "لم يتم تعيين القائمة الاجتماعية. تحتاج إلى إنشاء قائمة وتعيينها إلى القائمة "
 "الاجتماعية في إعدادات القائمة."
+
+msgid "AFTN Trending Posts Carousel"
+msgstr "AFTN تتجه المشاركات دائري"
+
+msgid "Displays youtube video slider."
+msgstr "يعرض شريط تمرير فيديو يوتيوب."
+
+msgid "AFTN YouTube Video Slider"
+msgstr "AFTN يوتيوب فيديو سلايدر"
+
+msgid "YouTube links:"
+msgstr "روابط يوتيوب:"
 
 msgid "Upload"
 msgstr "تحميل"
@@ -993,11 +1371,29 @@ msgstr "الشريط الجانبي الرئيسي"
 msgid "Add widgets for main sidebar."
 msgstr "إضافة الحاجيات للشريط الجانبي الرئيسي."
 
+msgid "Banner Ad Section"
+msgstr "قسم الإعلانات"
+
+msgid "Add widgets for frontpage banner section advertisement."
+msgstr "إضافة عناصر واجهة المستخدم لإعلان قسم لافتة الصفحة الأولى."
+
 msgid "Off Canvas"
 msgstr "Off Canvas"
 
 msgid "Add widgets for off-canvas section."
 msgstr "إضافة عناصر واجهة المستخدم لقسم خارج اللوحة."
+
+msgid "Above Main Banner Section"
+msgstr "اعلى قسم البانر الرئيسى"
+
+msgid "Add widgets for above main banner section."
+msgstr "أضف عناصر واجهة المستخدم لقسم الشعار الرئيسي أعلاه."
+
+msgid "Below Main Banner Section"
+msgstr "أسفل قسم البانر الرئيسي"
+
+msgid "Add widgets for below main banner section."
+msgstr "أضف عناصر واجهة المستخدم لقسم الشعار الرئيسي أدناه."
 
 msgid "Front-page Content Section"
 msgstr "قسم محتوى الصفحة الأولى"
@@ -1028,6 +1424,12 @@ msgstr "تذييل القسم الثالث"
 
 msgid "Displays items on footer third column."
 msgstr "يعرض العناصر الموجودة في تذييل العمود الثالث."
+
+msgid "Single Posts Ad Section"
+msgstr "قسم إعلانات المشاركات الفردية"
+
+msgid "Add widgets for single posts advertisement."
+msgstr "إضافة عناصر واجهة المستخدم لإعلان المشاركات الفردية."
 
 msgid "View your shopping cart"
 msgstr "شاهد سلة مشترياتك"
@@ -1099,6 +1501,168 @@ msgstr "j"
 msgctxt "weekly archives date format"
 msgid "W"
 msgstr "W"
+
+msgid ""
+"Welcome! Thank you for choosing %1$s. To fully take advantage of the best "
+"our theme can offer please make sure you visit theme details page."
+msgstr ""
+"مرحباً! شكرًا لك على اختيار %1$s. للاستفادة الكاملة من أفضل ما يمكن أن يقدمه"
+" موضوعنا، يرجى التأكد من زيارة صفحة تفاصيل الموضوع."
+
+msgid "Get started with %1$s"
+msgstr "ابدأ مع %1$s"
+
+msgid "Dismiss this notice"
+msgstr "إخفاء هذه الملاحظة"
+
+msgid "%s() method does not exist."
+msgstr "أسلوب %s() غير موجود."
+
+msgid "Manage Plugins"
+msgstr "إدارة المكونات الإضافية"
+
+msgid "Product Features"
+msgstr "ميزات المنتج"
+
+msgid "Free"
+msgstr "مجاني"
+
+msgid "Premium"
+msgstr "مدفوع الثمن"
+
+msgid ""
+"Howdy %1$s, we would like to thank you for installing and activating %2$s "
+"theme for your precious site. All of the features provided by the theme are "
+"now ready to use; Here, we have gathered all of the essential details and "
+"helpful links for you and your better experience with %2$s. Once again, "
+"Thanks for using our theme!"
+msgstr ""
+"مرحبًا %1$s، نود أن نشكرك على تثبيت وتفعيل سمة %2$s لموقعك الثمين. جميع "
+"الميزات التي يوفرها القالب جاهزة الآن للاستخدام؛ لقد جمعنا هنا كل التفاصيل "
+"الأساسية والروابط المفيدة لك ولتجربتك الأفضل مع %2$s. مرة أخرى، شكرا "
+"لاستخدام موضوعنا!"
+
+msgid "Getting Started"
+msgstr "بدء الاستخدام"
+
+msgid "Useful Plugins"
+msgstr "إضافات مفيدة"
+
+msgid "Demo Content"
+msgstr "فحوى النموذج"
+
+msgid "Theme Details"
+msgstr "تفاصيل القالب"
+
+msgid "View Demo"
+msgstr "عرض تجريبي"
+
+msgid "View Documentation"
+msgstr "عرض وثائق المساعدة"
+
+msgid "Theme Documentation"
+msgstr "وثيقة القالب"
+
+msgid "Static Front Page"
+msgstr "صفحة رئيسية ثابتة"
+
+msgid ""
+"To achieve custom home page other than blog listing, you need to create and "
+"set static front page."
+msgstr ""
+"لتحقيق صفحة رئيسية مخصصة بخلاف قائمة المدونات، تحتاج إلى إنشاء وتعيين صفحة "
+"رئيسية ثابتة."
+
+msgid ""
+"Theme uses Customizer API for theme options. Using the Customizer you can "
+"easily customize different aspects of the theme."
+msgstr ""
+"يستخدم المظهر Customizer API لخيارات السمة. باستخدام أداة التخصيص، يمكنك "
+"بسهولة تخصيص جوانب مختلفة من السمة."
+
+msgid "Widgets"
+msgstr "ودجات"
+
+msgid ""
+"Theme uses Wedgets API for widget options. Using the Widgets you can easily "
+"customize different aspects of the theme."
+msgstr ""
+"يستخدم المظهر Wedgets API لخيارات القطعة. باستخدام الأدوات، يمكنك بسهولة "
+"تخصيص جوانب مختلفة من السمة."
+
+msgid ""
+"To import sample demo content, %1$s plugin should be installed and "
+"activated. After plugin is activated, visit Import Demo Data menu under "
+"Appearance."
+msgstr ""
+"لاستيراد نموذج محتوى تجريبي، يجب تثبيت المكون الإضافي %1$s وتنشيطه. بعد "
+"تنشيط البرنامج المساعد، قم بزيارة قائمة استيراد البيانات التجريبية ضمن "
+"المظهر."
+
+msgid "One Click Demo Import"
+msgstr "استيراد العرض التجريبي بنقرة واحدة"
+
+msgid "Theme Preview"
+msgstr "معاينة الموضوع"
+
+msgid ""
+"You can check out the theme demos for reference to find out what you can "
+"achieve using the theme and how it can be customized."
+msgstr ""
+"يمكنك الاطلاع على العروض التوضيحية للموضوع كمرجع لمعرفة ما يمكنك تحقيقه "
+"باستخدام السمة وكيف يمكن تخصيصها."
+
+msgid "Contact Support"
+msgstr "الاتصال بالدعم"
+
+msgid ""
+"Got theme support question or found bug or got some feedbacks? Best place to"
+" ask your query is the dedicated Support forum for the theme."
+msgstr ""
+"هل لديك سؤال حول دعم السمة أو وجدت خطأً أو حصلت على بعض التعليقات؟ أفضل مكان"
+" لطرح استفسارك هو منتدى الدعم المخصص للموضوع."
+
+msgid "Child Theme"
+msgstr "القالب الإبن"
+
+msgid ""
+"For advanced theme customization, it is recommended to use child theme "
+"rather than modifying the theme file itself. Using this approach, you wont "
+"lose the customization after theme update."
+msgstr ""
+"لتخصيص السمة المتقدمة، يوصى باستخدام السمة الفرعية بدلاً من تعديل ملف السمة "
+"نفسه. باستخدام هذا الأسلوب، لن تفقد التخصيص بعد تحديث السمة."
+
+msgid "Learn More"
+msgstr "تعلم المزيد"
+
+msgid ""
+"Theme supports some helpful WordPress plugins to enhance your site. But, "
+"please enable only those plugins which you need in your site. For example, "
+"enable WooCommerce only if you are using e-commerce."
+msgstr ""
+"يدعم المظهر بعض مكونات WordPress الإضافية المفيدة لتحسين موقعك. ولكن، يرجى "
+"تمكين تلك المكونات الإضافية التي تحتاجها في موقعك فقط. على سبيل المثال، قم "
+"بتمكين WooCommerce فقط إذا كنت تستخدم التجارة الإلكترونية."
+
+msgid ""
+"To import demo content for this theme, %1$s plugin is needed. Please make "
+"sure plugin is installed and activated. After plugin is activated, you will "
+"see Import Demo Data menu under Appearance."
+msgstr ""
+"لاستيراد المحتوى التجريبي لهذا الموضوع، هناك حاجة إلى المكون الإضافي %1$s. "
+"يرجى التأكد من تثبيت البرنامج المساعد وتفعيله. بعد تنشيط البرنامج المساعد، "
+"سترى قائمة استيراد البيانات التجريبية ضمن المظهر."
+
+msgid ""
+"If you want more advanced features then you can upgrade to the premium "
+"version of the theme."
+msgstr ""
+"إذا كنت تريد المزيد من الميزات المتقدمة، فيمكنك الترقية إلى الإصدار المميز "
+"من السمة."
+
+msgid "Upgrade Now"
+msgstr "ترقية الآن"
 
 msgid "Install Required Plugins"
 msgstr "تثبيت الإضافات المطلوبة"
@@ -1243,9 +1807,6 @@ msgstr ""
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr "تم تثبيت جميع الإضافات و تفعيلها بنجاح. %1$s"
 
-msgid "Dismiss this notice"
-msgstr "إخفاء هذه الملاحظة"
-
 msgid ""
 "There are one or more required or recommended plugins to install, update or "
 "activate."
@@ -1273,7 +1834,7 @@ msgid ""
 "Please contact the plugin provider and ask them to package their plugin "
 "according to the WordPress guidelines."
 msgstr ""
-"يرجى الاتصال بمطور الإضافة و طلب حزم الإضافة الخاصة بهم وفقًا لإرشادات "
+"يرجى الاتصال بمطور الإضافة و طلب حزم الإضافة  الخاصة بهم وفقًا لإرشادات "
 "WordPress."
 
 msgid ""
@@ -1438,7 +1999,7 @@ msgid "Updating Plugin %1$s (%2$d/%3$d)"
 msgstr "جاري تحديث الإضافة %1$s (%2$d/%3$d)"
 
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr "حدث خطا أثناء تثبيت %1$s: <strong>%2$s</strong>."
+msgstr "حدث خطأ أثناء تثبيت %1$s: <strong>%2$s</strong>."
 
 msgid "The installation of %1$s failed."
 msgstr "فشل تثبيت%1$s."
@@ -1485,7 +2046,7 @@ msgid "Nothing Found"
 msgstr "لم يتم العثور على نتائج"
 
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "هل أنت مستعدّ لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+msgstr "هل أنت مستعد لنشر مشاركتك الأولى؟ <a href=\"%1$s\">ابدأ هنا</a>."
 
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
@@ -1497,10 +2058,10 @@ msgstr ""
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
-msgstr "يبدو أننا لا نستطيع العثور على ما تبحث عنه. ربما قد يساعدك البحث."
+msgstr "يبدو أننا لا نستطيع العثور على ما تبحث عنه. ربما البحث يمكن أن يساعد."
 
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "متابعة قراءة<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "متابعة القراءة<span class=\"screen-reader-text\"> \"%s\"</span>"
 
 msgid "Post navigation"
 msgstr "تصفّح المقالات"
@@ -1514,27 +2075,22 @@ msgstr "تحديث Blockspare برو"
 msgid "Update Blockspare"
 msgstr "تحديث Blockspare"
 
-msgid "Powerful Gutenberg Blocks & Patterns"
-msgstr "كتل وأنماط جوتنبرج القوية"
+msgid "Page Builder Gutenberg Blocks & Patterns"
+msgstr "كتل وأنماط منشئ الصفحة جوتنبرج"
 
 msgid ""
-"Easily build and customize your pages with a vast library of Gutenberg "
-"blocks and patterns, perfect for blogs, magazines, and business sites. Add "
-"post grids, sliders, and carousels without touching a single line of code. "
-"Import demo data and effortlessly create multilingual, visually appealing "
-"pages with complete flexibility."
+"Add pages effortlessly with expertly crafted Gutenberg patterns and blocks "
+"for blogs, magazines, newspapers, and agency sites using the Blockspare "
+"plugin!"
 msgstr ""
-"يمكنك إنشاء صفحاتك وتخصيصها بسهولة باستخدام مكتبة واسعة من كتل وأنماط "
-"Gutenberg، وهي مثالية للمدونات والمجلات ومواقع الأعمال. أضف شبكات النشر، "
-"وشرائح التمرير، والدوائر الدوارة دون لمس سطر واحد من التعليمات البرمجية. قم "
-"باستيراد البيانات التجريبية وإنشاء صفحات متعددة اللغات وجذابة بصريًا بمرونة "
-"كاملة دون عناء."
+"أضف صفحات بسهولة باستخدام أنماط وكتل Gutenberg المصممة بخبرة للمدونات "
+"والمجلات والصحف ومواقع الوكالات باستخدام البرنامج الإضافي Blockspare!"
 
 msgid "Hello "
 msgstr "مرحبًا"
 
-msgid "Welcome to"
-msgstr "مرحبًا بك في"
+msgid "Welcome to "
+msgstr "مرحبا بكم في"
 
 msgid "Update Elespare Pro"
 msgstr "تحديث إليسبير برو"
@@ -1542,21 +2098,15 @@ msgstr "تحديث إليسبير برو"
 msgid "Update Elespare"
 msgstr "تحديث إليسبير"
 
-msgid "Professional Sites with Elementor"
-msgstr "المواقع المهنية مع Elementor"
+msgid "Page Builder Elementor Widgets"
+msgstr "عناصر واجهة مستخدم منشئ الصفحة"
 
 msgid ""
-"Transform your blog, news, or magazine website with 35+ advanced Elementor "
-"widgets and 350+ customizable templates. Easily create headers, footers, "
-"post grids, sliders, and carousels with a fast-loading and SEO-optimized "
-"structure. Import demo content with a single click and enjoy codeless "
-"customization to craft your perfect site, no matter the language."
+"Add pages effortlessly with expertly crafted Elementor widgets for blogs, "
+"magazines, newspapers, and agency sites using the Elespare plugin!"
 msgstr ""
-"قم بتحويل موقع مدونتك أو أخبارك أو مجلتك باستخدام أكثر من 35 أداة Elementor "
-"متقدمة وأكثر من 350 قالبًا قابلاً للتخصيص. يمكنك بسهولة إنشاء الرؤوس "
-"والتذييلات وشبكات النشر وشرائح التمرير والدوائر الدوارة باستخدام بنية سريعة "
-"التحميل ومُحسّنة لتحسين محركات البحث. قم باستيراد المحتوى التجريبي بنقرة "
-"واحدة واستمتع بالتخصيص بدون رموز لتصميم موقعك المثالي، بغض النظر عن اللغة."
+"أضف صفحات بسهولة باستخدام عناصر واجهة المستخدم Elementor المصممة بخبرة "
+"للمدونات والمجلات والصحف ومواقع الوكالات باستخدام البرنامج الإضافي Elespare!"
 
 msgid ""
 "we would like to thank you for installing and activating [theme] theme for "
@@ -1570,275 +2120,14 @@ msgstr ""
 "والروابط المفيدة لك ولتجربتك الأفضل مع [theme]. مرة أخرى، شكرا لاستخدام "
 "موضوعنا!"
 
-msgid "Theme Details"
-msgstr "تفاصيل القالب"
-
-msgid "View Demo"
-msgstr "عرض تجريبي"
-
-msgid "View Documentation"
-msgstr "عرض وثائق المساعدة"
-
-msgid "Rate This Theme"
-msgstr "قيم هذا الموضوع"
+msgid "View Demos"
+msgstr "شاهد العرض التوضيحي"
 
 msgid "Upgrade"
 msgstr "ترقية"
 
 msgid "Demo Sites"
 msgstr "المواقع التجريبية"
-
-msgid "Live editing in Customizer"
-msgstr "التحرير المباشر في Customizer"
-
-msgid "One Click Demo Import Support"
-msgstr "نقرة واحدة لدعم الاستيراد التجريبي"
-
-msgid "Typography Style and Color"
-msgstr "نمط الطباعة واللون"
-
-msgid "Dark Mode"
-msgstr "الوضع الداكن"
-
-msgid "Light Mode"
-msgstr "الوضع الساطع"
-
-msgid "Preloader Option"
-msgstr "خيار التحميل المسبق"
-
-msgid "Multiple Header Options"
-msgstr "خيارات رأس متعددة"
-
-msgid "Logo and title customization"
-msgstr "تخصيص الشعار والعنوان"
-
-msgid "Image Banner Advertisements"
-msgstr "إعلانات بانر الصور"
-
-msgid "Widget Banner Advertisements"
-msgstr "إعلانات بانر القطعة"
-
-msgid "Home Icon Toggle"
-msgstr "تبديل أيقونة الصفحة الرئيسية"
-
-msgid "Menu Border Toggle"
-msgstr "تبديل حدود القائمة"
-
-msgid "Language Switcher Shortcode Area"
-msgstr "منطقة الرمز القصير لمحول اللغة"
-
-msgid "Popular Tags Section"
-msgstr "قسم العلامات الشعبية"
-
-msgid "Exclusive News Section"
-msgstr "قسم الأخبار الحصرية"
-
-msgid "Sticky Header Toggle"
-msgstr "تبديل رأس مثبت"
-
-msgid "Multiple Frontpage Banner Options"
-msgstr "خيارات بانر متعددة للصفحة الأولى"
-
-msgid "Frontpage Banner Posts Filter by Category"
-msgstr "تصفية مشاركات بانر الصفحة الأولى حسب الفئة"
-
-msgid "Default Frontpage Banner Options"
-msgstr "خيارات شعار الصفحة الأمامية الافتراضية"
-
-msgid "Default with Thumbs Section Frontpage Banner Options"
-msgstr "الافتراضي مع خيارات شعار الصفحة الأولى لقسم الإبهام"
-
-msgid "Slider with Tabbed Section Frontpage Banner Options"
-msgstr "شريط التمرير مع خيارات شعار الصفحة الأولى للقسم المبوب"
-
-msgid "Slider with Thumbs Section Frontpage Banner Options"
-msgstr "شريط التمرير مع خيارات شعار الصفحة الأولى لقسم الإبهام"
-
-msgid "Carousel with Tabbed Section Frontpage Banner Options"
-msgstr "دائري مع خيارات شعار الصفحة الأولى للقسم المبوب"
-
-msgid "Carousel with Thumbs Section Frontpage Banner Options"
-msgstr "دائري مع خيارات شعار الصفحة الأولى لقسم الإبهام"
-
-msgid "None Frontpage Banner Options"
-msgstr "لا توجد خيارات لشعار الصفحة الأمامية"
-
-msgid "Banner Section Background Image"
-msgstr "صورة خلفية قسم البانر"
-
-msgid "Featured Posts on Banner Section"
-msgstr "المشاركات المميزة في قسم البانر"
-
-msgid "Banner Featured Posts Section"
-msgstr "قسم المشاركات المميزة"
-
-msgid "Editors Picks on Banner Section"
-msgstr "اختيارات المحررين في قسم اللافتة"
-
-msgid "Posts Categories Toggle"
-msgstr "المشاركات الفئات تبديل"
-
-msgid "Comments Count Toggle"
-msgstr "عدد التعليقات تبديل"
-
-msgid "Minutes Read Toggle"
-msgstr "دقائق القراءة تبديل"
-
-msgid "Date and Author Toggle"
-msgstr "تبديل التاريخ والمؤلف"
-
-msgid "Posts Date format Options"
-msgstr "خيارات تنسيق تاريخ المشاركات"
-
-msgid "Features Image Toggle in Single Post"
-msgstr "ميزات تبديل الصورة في مشاركة واحدة"
-
-msgid "Default Featured Image View in Single Post"
-msgstr "عرض الصور المميزة الافتراضي في مشاركة واحدة"
-
-msgid "Full Featured Image View in Single Post"
-msgstr "عرض كامل للصورة المميزة في مشاركة واحدة"
-
-msgid "Category Color Options"
-msgstr "خيارات ألوان الفئة"
-
-msgid "Off Canvas Widget Area"
-msgstr "خارج منطقة القطعة القماشية"
-
-msgid "Archive Masonry Layout"
-msgstr "أرشيف تخطيط البناء"
-
-msgid "Banner Advertisements Widget Area"
-msgstr "منطقة القطعة لإعلانات البانر"
-
-msgid "Posts Section Advertisements Widget Area"
-msgstr "منطقة القطعة إعلانات قسم المشاركات"
-
-msgid "Above Main Banner Section Widget Area"
-msgstr "منطقة عنصر واجهة المستخدم لقسم الشعار الرئيسي"
-
-msgid "Below Main Banner Section Widget Area"
-msgstr "أسفل منطقة عنصر واجهة المستخدم لقسم الشعار الرئيسي"
-
-msgid "Custom Widgets"
-msgstr "الحاجيات المخصصة"
-
-msgid "Basic Custom Widgets Controls"
-msgstr "عناصر التحكم الأساسية في الحاجيات المخصصة"
-
-msgid "Advance Custom Widgets Controls"
-msgstr "ضوابط الحاجيات المخصصة المتقدمة"
-
-msgid "Author Biography"
-msgstr "سيرة الكاتب"
-
-msgid "Post Carousel Widget"
-msgstr "مشاركة القطعة الدائرية"
-
-msgid "Post Image Slider Widget"
-msgstr "القطعة المنزلق لنشر الصورة"
-
-msgid "Post Double Column Double Categories Widget"
-msgstr "أداة نشر عمود مزدوج للفئات المزدوجة"
-
-msgid "Post Single Column Widget"
-msgstr "نشر القطعة عمود واحد"
-
-msgid "Post Grid Widget"
-msgstr "القطعة بعد الشبكة"
-
-msgid "Post Express Grid Widget"
-msgstr "بوست اكسبرس الشبكة القطعة"
-
-msgid "Post List Widget"
-msgstr "القطعة قائمة المشاركة"
-
-msgid "Post Express List Widget"
-msgstr "مشاركة قائمة القطعة السريعة"
-
-msgid "Post Tabbed Widget"
-msgstr "مشاركة القطعة المبوبة"
-
-msgid "Social Contact Widget"
-msgstr "القطعة الاتصال الاجتماعي"
-
-msgid "Trending Posts Vertical Carousel Widget"
-msgstr "المشاركات الشائعة القطعة الدائرية العمودية"
-
-msgid "YouTube Video Slider Widget"
-msgstr "أداة شريط تمرير فيديو YouTube"
-
-msgid "List Archive Layout"
-msgstr "قائمة تخطيط الأرشيف"
-
-msgid "List Alternate Archive Layout"
-msgstr "قائمة تخطيط الأرشيف البديل"
-
-msgid "List Right Archive Layout"
-msgstr "قائمة تخطيط الأرشيف الصحيح"
-
-msgid "Grid Archive Layout"
-msgstr "تخطيط أرشيف الشبكة"
-
-msgid "Grid Alternate Archive Layout"
-msgstr "تخطيط الأرشيف البديل للشبكة"
-
-msgid "Grid Alternate with List Archive Layout"
-msgstr "شبكة بديلة مع تخطيط أرشيف القائمة"
-
-msgid "Grid Alternate with Full Archive Layout"
-msgstr "الشبكة البديلة مع تخطيط الأرشيف الكامل"
-
-msgid "Full Archive Layout"
-msgstr "تخطيط الأرشيف الكامل"
-
-msgid "Masonry Archive Layout"
-msgstr "تخطيط أرشيف البناء"
-
-msgid "Numeric Pagination"
-msgstr "ترقيم الصفحات الرقمية"
-
-msgid "Ajax Load More Pagination"
-msgstr "اياكس تحميل المزيد من الصفحات"
-
-msgid "Infinite Scroll Pagination"
-msgstr "صفحات التمرير اللانهائية"
-
-msgid "Mailchimp Subscription Supports"
-msgstr "يدعم الاشتراك في Mailchimp"
-
-msgid "Display Related Posts"
-msgstr "عرض المشاركات ذات الصلة"
-
-msgid "Footer Widgets Section"
-msgstr "قسم أدوات التذييل"
-
-msgid "Gutenberg Compatibility"
-msgstr "توافق جوتنبرج"
-
-msgid "RTL Compatibility"
-msgstr "التوافق من RTL"
-
-msgid "WooCommerce Compatibility"
-msgstr "التوافق مع ووكومرس"
-
-msgid "Hide Theme Credit Link"
-msgstr "إخفاء رابط رصيد الموضوع"
-
-msgid "Responsive Layout"
-msgstr "تخطيط متجاوب"
-
-msgid "Translations Ready"
-msgstr "الترجمات جاهزة"
-
-msgid "SEO Optimized"
-msgstr "تحسين محركات البحث"
-
-msgid "Normal Support"
-msgstr "الدعم العادي"
-
-msgid "Advance Support"
-msgstr "الدعم المسبق"
 
 msgid ""
 "Set the theme header type, set the colors, spacing, alignment and more."
@@ -1865,14 +2154,10 @@ msgid "Frontpage Option"
 msgstr "خيار الصفحة الأولى"
 
 msgid ""
-"Frontpage layout with Popular Tag, Breaking News, Prime News, Main Banner, "
-"Feature News with Express Post can be set."
+"Frontpage layout with Popular Tag, Breaking News, Feature News can be set."
 msgstr ""
-"يمكن ضبط تخطيط الصفحة الأولى مع العلامات الشعبية والأخبار العاجلة والأخبار "
-"الرئيسية واللافتة الرئيسية والأخبار المميزة مع البريد السريع."
-
-msgid "Static Front Page"
-msgstr "صفحة رئيسية ثابتة"
+"يمكن ضبط تخطيط الصفحة الأولى مع العلامات الشائعة والأخبار العاجلة والأخبار "
+"المميزة."
 
 msgid ""
 "Set the Homepage as a static page to create own homepage using widgets."
@@ -1908,15 +2193,70 @@ msgstr "خيارات التذييل"
 msgid "Set the footer type, number of columns, spacing and colors."
 msgstr "اختيار نوع التذييل، عدد الأعمدة، التباعد والألوان."
 
-msgid "View"
-msgstr "عرض"
+msgid "Elespare (Elementor)"
+msgstr "إليسبار (عنصر)"
 
 msgid ""
-"Please check our full documentation for detailed information on how to setup"
-" and customize the theme."
+"A stunning assortment of WordPress post widgets. It allows you to display "
+"your posts in many formats such as grid, list, tile, full, express, and so "
+"on."
 msgstr ""
-"يرجى مراجعة وثائقنا الكاملة للحصول على معلومات مفصلة حول كيفية إعداد السمة "
-"وتخصيصها."
+"مجموعة مذهلة من أدوات منشورات WordPress. يسمح لك بعرض منشوراتك بالعديد من "
+"التنسيقات مثل الشبكة والقائمة والبلاط والكامل والصريح وما إلى ذلك."
+
+msgid "Blockspare Pro"
+msgstr "بلوكسبير برو"
+
+msgid "Beautiful Page Building Gutenberg Blocks for WordPress"
+msgstr "كتل بناء صفحة جميلة من Gutenberg لـ WordPress"
+
+msgid "Magic Content Box Block"
+msgstr "كتلة صندوق المحتوى السحري"
+
+msgid ""
+"We build a beautiful series of page section Gutenberg blocks for WordPress "
+"content to help you quickly create the website you have always desired.."
+msgstr ""
+"نقوم ببناء سلسلة جميلة من كتل Gutenberg لقسم الصفحات لمحتوى WordPress "
+"لمساعدتك في إنشاء موقع الويب الذي طالما رغبت فيه بسرعة."
+
+msgid "Latest Posts Block for WordPress (Gutenberg)"
+msgstr "منع أحدث المشاركات لـ WordPress (جوتنبرج)"
+
+msgid ""
+"A beautiful collection of latest posts Gutenberg blocks for WordPress, which"
+" helps you to design posts grid, posts list, full posts layout, advanced "
+"express posts design, and tile layouts of your posts."
+msgstr ""
+"مجموعة جميلة من أحدث منشورات كتل Gutenberg لـ WordPress، والتي تساعدك على "
+"تصميم شبكة المنشورات، وقائمة المنشورات، وتخطيط المنشورات الكاملة، وتصميم "
+"المنشورات السريعة المتقدمة، وتخطيطات البلاط لمشاركاتك."
+
+msgid "Team and Testimonial Block for WordPress (Gutenberg)"
+msgstr "الفريق وكتلة الشهادات لـ WordPress (جوتنبرج)"
+
+msgid ""
+"With the Team and Testimonial Block for Gutenberg, you can quickly create a "
+"beautiful, responsive, and high-converting team, members, review, rating, "
+"etc, sections. There is no need to code anything."
+msgstr ""
+"باستخدام الفريق وكتلة الشهادات لـ Gutenberg، يمكنك بسرعة إنشاء فريق وأعضاء "
+"ومراجعة وتقييم وما إلى ذلك، بشكل سريع وسريع الاستجابة وعالي التحويل. ليست "
+"هناك حاجة لترميز أي شيء."
+
+msgid "Pricing Table Block for WordPress (Gutenberg)"
+msgstr "كتلة جدول التسعير لـ WordPress (جوتنبرج)"
+
+msgid ""
+"With the Pricing Table Block for Gutenberg, you can quickly create a "
+"beautiful, responsive, and high-converting pricing table. There is no need "
+"to code anything."
+msgstr ""
+"باستخدام قالب جدول التسعير لـ Gutenberg، يمكنك بسرعة إنشاء جدول تسعير جميل "
+"وسريع الاستجابة وعالي التحويل. ليست هناك حاجة لترميز أي شيء."
+
+msgid "View"
+msgstr "عرض"
 
 msgid ""
 "Got theme support question or found bug or got some feedbacks? Best place to"
@@ -1933,6 +2273,20 @@ msgstr "فيميو"
 
 msgid "Watch out the videos for an easy learning on Customizing the Theme ."
 msgstr "شاهد مقاطع الفيديو لتتعلم بسهولة كيفية تخصيص السمة."
+
+msgid "3CX Free Live Chat"
+msgstr "3CX الدردشة الحية المجانية"
+
+msgid "Visit"
+msgstr "زيارة"
+
+msgid ""
+"We have built a new live chat solution called 3cx startup! this will give "
+"you completely free live chat, voice capability plus a team communication "
+"system!"
+msgstr ""
+"لقد قمنا ببناء حل جديد للدردشة المباشرة يسمى 3cx Startup! سيمنحك هذا دردشة "
+"حية مجانية تمامًا وقدرة صوتية بالإضافة إلى نظام اتصال جماعي!"
 
 msgid ""
 "Use AF Companion to import live demo content, widgets, and settings swiftly."
@@ -2018,32 +2372,59 @@ msgstr ""
 "التكامل مع أي نموذج موجود على موقعك، مثل نموذج التعليق أو جهة الاتصال أو "
 "الخروج."
 
+msgid "Get Started with Beautiful Starter Templates."
+msgstr "ابدأ باستخدام قوالب البداية الجميلة."
+
+msgid ""
+"Use templatespare to import live demo content, widgets, and settings "
+"swiftly. This plugin gives fundamental layout to build your website and "
+"accelerate the development process."
+msgstr ""
+"استخدم templatespare لاستيراد المحتوى التجريبي المباشر والأدوات والإعدادات "
+"بسرعة. يوفر هذا البرنامج المساعد تخطيطًا أساسيًا لإنشاء موقع الويب الخاص بك "
+"وتسريع عملية التطوير."
+
+msgid ""
+"Use blockspare to import live demo content, widgets, and settings swiftly. "
+"This plugin gives fundamental layout to build your website and accelerate "
+"the development process."
+msgstr ""
+"استخدم blockpare لاستيراد المحتوى التجريبي المباشر والأدوات والإعدادات "
+"بسرعة. يوفر هذا البرنامج المساعد تخطيطًا أساسيًا لإنشاء موقع الويب الخاص بك "
+"وتسريع عملية التطوير."
+
 msgid "Get started"
 msgstr "البدء"
 
-msgid "Useful Plugins"
-msgstr "إضافات مفيدة"
-
-msgid "Free vs Pro"
-msgstr "المجاني vs المدفوع"
+msgid "Premium Plugins"
+msgstr "الإضافات المميزة"
 
 msgid "Change Log"
 msgstr "تغيير السجل"
 
-msgid "Features"
-msgstr "المميزات"
-
-msgid "Free"
-msgstr "مجاني"
-
-msgid "Pro"
-msgstr "احترافي"
-
 msgid "Go to option"
 msgstr "انتقل إلى الخيار"
+
+msgid "Buy Now"
+msgstr "اشتري الآن"
 
 msgid "Update Templatespare"
 msgstr "تحديث قالب الغيار"
 
-msgid "Easy Website Building with Zero Code"
-msgstr "إنشاء موقع ويب سهل باستخدام رمز صفري"
+msgid "Create Your Dream Website in Minutes!"
+msgstr "قم بإنشاء موقع أحلامك في دقائق!"
+
+msgid ""
+"No coding needed. One-click import of expert-made starter sites with "
+"customizer, widgets, Elementor Template Kits, and Gutenberg Patterns. Start "
+"now with Templatespare Plugin!"
+msgstr ""
+"لا حاجة للترميز. استيراد مواقع البداية التي أنشأها الخبراء بنقرة واحدة "
+"باستخدام أدوات التخصيص والأدوات ومجموعات قوالب Elementor وأنماط Gutenberg. "
+"ابدأ الآن باستخدام المكون الإضافي Templatespare!"
+
+msgid "Preview"
+msgstr "معاينة"
+
+msgid "All Themes Plan"
+msgstr "خطة جميع المواضيع"

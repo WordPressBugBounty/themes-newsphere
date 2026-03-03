@@ -86,7 +86,7 @@ function newsphere_customize_register($wp_customize) {
 
     $wp_customize->add_control('site_title_font_size',
         array(
-            'label'    => esc_html__('Site Title Size', 'newsphere'),
+            'label'    => __('Site Title Size', 'newsphere'),
             'section'  => 'title_tagline',
             'type'     => 'number',
             'priority' => 50,
@@ -108,7 +108,7 @@ function newsphere_customize_register($wp_customize) {
 
     $wp_customize->add_control('disable_header_image_tint_overlay',
         array(
-            'label'    => esc_html__('Disable Image Tint/Overlay', 'newsphere'),
+            'label'    => __('Disable Image Tint/Overlay', 'newsphere'),
             'section'  => 'header_image',
             'type'     => 'checkbox',
             'priority' => 50,
@@ -129,8 +129,8 @@ function newsphere_customize_register($wp_customize) {
             $wp_customize,
             'theme_upsell',
             array(
-                'title'    => esc_html__( 'Newsphere Pro', 'newsphere' ),
-                'pro_text' => esc_html__( 'Upgrade now', 'newsphere' ),
+                'title'    => __( 'Newsphere Pro', 'newsphere' ),
+                'pro_text' => __( 'Upgrade now', 'newsphere' ),
                 'pro_url'  => 'https://www.afthemes.com/products/newsphere-pro/',
                 'priority'  => 1,
             )

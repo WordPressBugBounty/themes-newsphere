@@ -13,7 +13,7 @@ require get_template_directory() . '/inc/customizer/frontpage-options.php';
 // Add Theme Options Panel.
 $wp_customize->add_panel('theme_option_panel',
     array(
-        'title' => esc_html__('Theme Options', 'newsphere'),
+        'title' => __('Theme Options', 'newsphere'),
         'priority' => 200,
         'capability' => 'edit_theme_options',
     )
@@ -23,7 +23,7 @@ $wp_customize->add_panel('theme_option_panel',
 // Preloader Section.
 $wp_customize->add_section('site_preloader_settings',
     array(
-        'title' => esc_html__('Preloader Options', 'newsphere'),
+        'title' => __('Preloader Options', 'newsphere'),
         'priority' => 4,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -41,7 +41,7 @@ $wp_customize->add_setting('enable_site_preloader',
 
 $wp_customize->add_control('enable_site_preloader',
     array(
-        'label' => esc_html__('Enable preloader', 'newsphere'),
+        'label' => __('Enable preloader', 'newsphere'),
         'section' => 'site_preloader_settings',
         'type' => 'checkbox',
         'priority' => 10,
@@ -58,7 +58,7 @@ $wp_customize->add_control('enable_site_preloader',
 // Frontpage Section.
 $wp_customize->add_section('header_options_settings',
     array(
-        'title' => esc_html__('Header Options', 'newsphere'),
+        'title' => __('Header Options', 'newsphere'),
         'priority' => 49,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -76,7 +76,7 @@ $wp_customize->add_setting('show_date_section',
 );
 $wp_customize->add_control('show_date_section',
     array(
-        'label' => esc_html__('Show date on top header', 'newsphere'),
+        'label' => __('Show date on top header', 'newsphere'),
         'section' => 'header_options_settings',
         'type' => 'checkbox',
         'priority' => 10,
@@ -96,7 +96,7 @@ $wp_customize->add_setting('show_social_menu_section',
 
 $wp_customize->add_control('show_social_menu_section',
     array(
-        'label' => esc_html__('Show social menu on top header', 'newsphere'),
+        'label' => __('Show social menu on top header', 'newsphere'),
         'section' => 'header_options_settings',
         'type' => 'checkbox',
         'priority' => 11,
@@ -116,7 +116,7 @@ $wp_customize->add_setting('enable_breadcrumb',
 
 $wp_customize->add_control('enable_breadcrumb',
     array(
-        'label' => esc_html__('Show breadcrumbs', 'newsphere'),
+        'label' => __('Show breadcrumbs', 'newsphere'),
         'section' => 'site_layout_settings',
         'type' => 'checkbox',
         'priority' => 10,
@@ -135,15 +135,15 @@ $wp_customize->add_setting('select_breadcrumb_mode',
 
 $wp_customize->add_control( 'select_breadcrumb_mode',
     array(
-        'label'       => esc_html__('Select Breadcrumbs', 'newsphere'),
-        'description' => esc_html__("Please ensure that you have enabled the plugin's breadcrumbs before choosing other than Default", 'newsphere'),
+        'label'       => __('Select Breadcrumbs', 'newsphere'),
+        'description' => __("Please ensure that you have enabled the plugin's breadcrumbs before choosing other than Default", 'newsphere'),
         'section'     => 'site_layout_settings',
         'type'        => 'select',
         'choices'               => array(
-            'default' => esc_html__( 'Default', 'newsphere' ),
-            'yoast' => esc_html__( 'Yoast SEO', 'newsphere' ),
-            'rankmath' => esc_html__( 'Rank Math', 'newsphere' ),
-            'bcn' => esc_html__( 'NavXT', 'newsphere' ),
+            'default' => __( 'Default', 'newsphere' ),
+            'yoast' => __( 'Yoast SEO', 'newsphere' ),
+            'rankmath' => __( 'Rank Math', 'newsphere' ),
+            'bcn' => __( 'NavXT', 'newsphere' ),
         ),
         'priority'    => 10,
         'active_callback' => 'newsphere_enable_breadcrumb_status'
@@ -159,7 +159,7 @@ $wp_customize->add_control( 'select_breadcrumb_mode',
 // Sidebar Section.
 $wp_customize->add_section('site_sidebar_settings',
     array(
-        'title'      => esc_html__('Sidebar Settings', 'newsphere'),
+        'title'      => __('Sidebar Settings', 'newsphere'),
         'priority'   => 50,
         'capability' => 'edit_theme_options',
         'panel'      => 'theme_option_panel',
@@ -177,7 +177,7 @@ $wp_customize->add_setting('frontpage_sticky_sidebar',
 
 $wp_customize->add_control('frontpage_sticky_sidebar',
     array(
-        'label' => esc_html__('Enable Sticky Sidebar', 'newsphere'),
+        'label' => __('Enable Sticky Sidebar', 'newsphere'),
         'section' => 'site_sidebar_settings',
         'type' => 'checkbox',
         'priority' => 11,
@@ -196,12 +196,12 @@ $wp_customize->add_setting('frontpage_sticky_sidebar_position',
 
 $wp_customize->add_control( 'frontpage_sticky_sidebar_position',
     array(
-        'label'       => esc_html__('Sidebar Sticky Position', 'newsphere'),
+        'label'       => __('Sidebar Sticky Position', 'newsphere'),
         'section'     => 'site_sidebar_settings',
         'type'        => 'select',
         'choices'               => array(
-            'sidebar-sticky-top' => esc_html__( 'Top', 'newsphere' ),
-            'sidebar-sticky-bottom' => esc_html__( 'Bottom', 'newsphere' ),
+            'sidebar-sticky-top' => __( 'Top', 'newsphere' ),
+            'sidebar-sticky-bottom' => __( 'Bottom', 'newsphere' ),
         ),
         'priority'    => 130,
         'active_callback' => 'newsphere_frontpage_sticky_sidebar_status'
@@ -219,7 +219,7 @@ $wp_customize->add_control( 'frontpage_sticky_sidebar_position',
 // Layout Section.
 $wp_customize->add_section('site_layout_settings',
     array(
-        'title' => esc_html__('Global Settings', 'newsphere'),
+        'title' => __('Global Settings', 'newsphere'),
         'priority' => 9,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -236,7 +236,7 @@ $wp_customize->add_setting('aft_language_switcher',
 );
 $wp_customize->add_control('aft_language_switcher',
     array(
-        'label' => esc_html__('Language Switcher Shortcode', 'newsphere'),
+        'label' => __('Language Switcher Shortcode', 'newsphere'),
         'section' => 'header_options_settings',
         'type' => 'text',
         'priority' => 130,
@@ -256,13 +256,13 @@ $wp_customize->add_setting('global_content_alignment',
 
 $wp_customize->add_control('global_content_alignment',
     array(
-        'label' => esc_html__('Global Content Alignment', 'newsphere'),
+        'label' => __('Global Content Alignment', 'newsphere'),
         'section' => 'site_layout_settings',
         'type' => 'select',
         'choices' => array(
-            'align-content-left' => esc_html__('Content - Primary sidebar', 'newsphere'),
-            'align-content-right' => esc_html__('Primary sidebar - Content', 'newsphere'),
-            'full-width-content' => esc_html__('Full width content', 'newsphere')
+            'align-content-left' => __('Content - Primary sidebar', 'newsphere'),
+            'align-content-right' => __('Primary sidebar - Content', 'newsphere'),
+            'full-width-content' => __('Full width content', 'newsphere')
         ),
         'priority' => 130,
     ));
@@ -278,12 +278,12 @@ $wp_customize->add_setting('global_show_categories',
 
 $wp_customize->add_control('global_show_categories',
     array(
-        'label' => esc_html__('Post Categories', 'newsphere'),
+        'label' => __('Post Categories', 'newsphere'),
         'section' => 'site_layout_settings',
         'type' => 'select',
         'choices' => array(
-            'yes' => esc_html__('Show', 'newsphere'),
-            'no' => esc_html__('Hide', 'newsphere'),
+            'yes' => __('Show', 'newsphere'),
+            'no' => __('Hide', 'newsphere'),
 
         ),
         'priority' => 130,
@@ -295,7 +295,7 @@ $wp_customize->add_control('global_show_categories',
 // Global Section.
 $wp_customize->add_section('site_comment_count_settings',
     array(
-        'title' => esc_html__('Comment Count', 'newsphere'),
+        'title' => __('Comment Count', 'newsphere'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -313,12 +313,12 @@ $wp_customize->add_setting('global_show_comment_count',
 
 $wp_customize->add_control('global_show_comment_count',
     array(
-        'label' => esc_html__('Comment Count', 'newsphere'),
+        'label' => __('Comment Count', 'newsphere'),
         'section' => 'site_comment_count_settings',
         'type' => 'select',
         'choices' => array(
-            'yes' => esc_html__('Show', 'newsphere'),
-            'no' => esc_html__('Hide', 'newsphere'),
+            'yes' => __('Show', 'newsphere'),
+            'no' => __('Hide', 'newsphere'),
 
         ),
         'priority' => 130,
@@ -335,7 +335,7 @@ $wp_customize->add_setting('global_hide_comment_count_in_list',
 );
 $wp_customize->add_control('global_hide_comment_count_in_list',
     array(
-        'label' => esc_html__('Hide Comment Count in List', 'newsphere'),
+        'label' => __('Hide Comment Count in List', 'newsphere'),
         'section' => 'site_comment_count_settings',
         'type' => 'checkbox',
         'priority' => 130,
@@ -349,7 +349,7 @@ $wp_customize->add_control('global_hide_comment_count_in_list',
 // Global Section.
 $wp_customize->add_section('site_min_read_settings',
     array(
-        'title' => esc_html__('Minutes Read Count', 'newsphere'),
+        'title' => __('Minutes Read Count', 'newsphere'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -368,12 +368,12 @@ $wp_customize->add_setting('global_show_min_read',
 
 $wp_customize->add_control('global_show_min_read',
     array(
-        'label' => esc_html__('Minutes Read Count', 'newsphere'),
+        'label' => __('Minutes Read Count', 'newsphere'),
         'section' => 'site_min_read_settings',
         'type' => 'select',
         'choices' => array(
-            'yes' => esc_html__('Show', 'newsphere'),
-            'no' => esc_html__('Hide', 'newsphere'),
+            'yes' => __('Show', 'newsphere'),
+            'no' => __('Hide', 'newsphere'),
 
         ),
         'priority' => 130,
@@ -389,7 +389,7 @@ $wp_customize->add_setting('global_show_min_read_number',
 );
 $wp_customize->add_control('global_show_min_read_number',
     array(
-        'label' => esc_html__('Number of Words per Minute Read', 'newsphere'),
+        'label' => __('Number of Words per Minute Read', 'newsphere'),
         'section' => 'site_min_read_settings',
         'type' => 'number',
         'priority' => 130,
@@ -407,7 +407,7 @@ $wp_customize->add_setting('global_hide_min_read_in_list',
 );
 $wp_customize->add_control('global_hide_min_read_in_list',
     array(
-        'label' => esc_html__('Hide Minutes Read Count in List', 'newsphere'),
+        'label' => __('Hide Minutes Read Count in List', 'newsphere'),
         'section' => 'site_min_read_settings',
         'type' => 'checkbox',
         'priority' => 130,
@@ -421,7 +421,7 @@ $wp_customize->add_control('global_hide_min_read_in_list',
 // Global Section.
 $wp_customize->add_section('site_post_date_author_settings',
     array(
-        'title' => esc_html__('Date and Author', 'newsphere'),
+        'title' => __('Date and Author', 'newsphere'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -440,14 +440,14 @@ $wp_customize->add_setting('global_post_date_author_setting',
 
 $wp_customize->add_control('global_post_date_author_setting',
     array(
-        'label' => esc_html__('Date and Author', 'newsphere'),
+        'label' => __('Date and Author', 'newsphere'),
         'section' => 'site_post_date_author_settings',
         'type' => 'select',
         'choices' => array(
-            'show-date-author' => esc_html__('Show Date and Author', 'newsphere'),
-            'show-date-only' => esc_html__('Show Date Only', 'newsphere'),
-            'show-author-only' => esc_html__('Show Author Only', 'newsphere'),
-            'hide-date-author' => esc_html__('Hide All', 'newsphere'),
+            'show-date-author' => __('Show Date and Author', 'newsphere'),
+            'show-date-only' => __('Show Date Only', 'newsphere'),
+            'show-author-only' => __('Show Author Only', 'newsphere'),
+            'hide-date-author' => __('Hide All', 'newsphere'),
         ),
         'priority' => 130,
     ));
@@ -463,7 +463,7 @@ $wp_customize->add_setting('global_hide_post_date_author_in_list',
 );
 $wp_customize->add_control('global_hide_post_date_author_in_list',
     array(
-        'label' => esc_html__('Hide Date and Author in List', 'newsphere'),
+        'label' => __('Hide Date and Author in List', 'newsphere'),
         'section' => 'site_post_date_author_settings',
         'type' => 'checkbox',
         'priority' => 130,
@@ -483,12 +483,12 @@ $wp_customize->add_setting('global_date_display_setting',
 
 $wp_customize->add_control('global_date_display_setting',
     array(
-        'label' => esc_html__('Date Format', 'newsphere'),
+        'label' => __('Date Format', 'newsphere'),
         'section' => 'site_post_date_author_settings',
         'type' => 'select',
         'choices' => array(
-            'theme-date' => esc_html__('Date Format by Theme', 'newsphere'),
-            'default-date' => esc_html__('WordPress Default Date Format', 'newsphere'),
+            'theme-date' => __('Date Format by Theme', 'newsphere'),
+            'default-date' => __('WordPress Default Date Format', 'newsphere'),
 
         ),
         'priority' => 130,
@@ -506,12 +506,12 @@ $wp_customize->add_setting('global_widget_excerpt_setting',
 
 $wp_customize->add_control('global_widget_excerpt_setting',
     array(
-        'label' => esc_html__('Widget Excerpt Mode', 'newsphere'),
+        'label' => __('Widget Excerpt Mode', 'newsphere'),
         'section' => 'site_layout_settings',
         'type' => 'select',
         'choices' => array(
-            'trimmed-content' => esc_html__('Trimmed Content', 'newsphere'),
-            'default-excerpt' => esc_html__('Default Excerpt', 'newsphere'),
+            'trimmed-content' => __('Trimmed Content', 'newsphere'),
+            'default-excerpt' => __('Default Excerpt', 'newsphere'),
 
         ),
         'priority' => 130,
@@ -524,7 +524,7 @@ $wp_customize->add_control('global_widget_excerpt_setting',
 // Single Section.
 $wp_customize->add_section('site_single_posts_settings',
     array(
-        'title' => esc_html__('Single Post', 'newsphere'),
+        'title' => __('Single Post', 'newsphere'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -560,13 +560,13 @@ $wp_customize->add_setting('global_single_content_mode',
 
 $wp_customize->add_control( 'global_single_content_mode',
     array(
-        'label'       => esc_html__('Single Content mode', 'newsphere'),
-        'description' => esc_html__('Select global single content mode', 'newsphere'),
+        'label'       => __('Single Content mode', 'newsphere'),
+        'description' => __('Select global single content mode', 'newsphere'),
         'section'     => 'site_single_posts_settings',
         'type'        => 'select',
         'choices'               => array(
-            'single-content-mode-default' => esc_html__( 'Wide - Default', 'newsphere' ),
-            'single-content-mode-boxed' => esc_html__( 'Boxed', 'newsphere' ),
+            'single-content-mode-default' => __( 'Wide - Default', 'newsphere' ),
+            'single-content-mode-boxed' => __( 'Boxed', 'newsphere' ),
         ),
         'priority'    => 130,
     ));
@@ -577,7 +577,7 @@ $wp_customize->add_control( 'global_single_content_mode',
 // Single Section.
 $wp_customize->add_section('site_single_related_posts_settings',
     array(
-        'title' => esc_html__('Related Posts', 'newsphere'),
+        'title' => __('Related Posts', 'newsphere'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -632,7 +632,7 @@ $wp_customize->add_control('single_related_posts_title',
 // Archive Section.
 $wp_customize->add_section('site_archive_settings',
     array(
-        'title' => esc_html__('Archive Settings', 'newsphere'),
+        'title' => __('Archive Settings', 'newsphere'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -650,14 +650,14 @@ $wp_customize->add_setting('archive_image_alignment_list',
 
 $wp_customize->add_control('archive_image_alignment_list',
     array(
-        'label' => esc_html__('Image alignment', 'newsphere'),
-        'description' => esc_html__('Select image alignment for archive', 'newsphere'),
+        'label' => __('Image alignment', 'newsphere'),
+        'description' => __('Select image alignment for archive', 'newsphere'),
         'section' => 'site_archive_settings',
         'type' => 'select',
         'choices' => array(
-            'archive-image-left' => esc_html__('Left', 'newsphere'),
-            'archive-image-right' => esc_html__('Right', 'newsphere'),
-            'archive-image-alternate' => esc_html__('Alternate', 'newsphere'),
+            'archive-image-left' => __('Left', 'newsphere'),
+            'archive-image-right' => __('Right', 'newsphere'),
+            'archive-image-alternate' => __('Alternate', 'newsphere'),
         ),
         'priority' => 130,
         //'active_callback' => 'newsphere_archive_image_status'
@@ -668,7 +668,7 @@ $wp_customize->add_control('archive_image_alignment_list',
 // Footer Section.
 $wp_customize->add_section('frontpage_latest_posts_settings',
     array(
-        'title' => esc_html__('You May Have Missed', 'newsphere'),
+        'title' => __('You May Have Missed', 'newsphere'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -703,7 +703,7 @@ $wp_customize->add_setting('frontpage_latest_posts_section_title',
 );
 $wp_customize->add_control('frontpage_latest_posts_section_title',
     array(
-        'label' => esc_html__('Posts Section Title', 'newsphere'),
+        'label' => __('Posts Section Title', 'newsphere'),
         'section' => 'frontpage_latest_posts_settings',
         'type' => 'text',
         'priority' => 100,
@@ -719,7 +719,7 @@ $wp_customize->add_control('frontpage_latest_posts_section_title',
 // Footer Section.
 $wp_customize->add_section('site_footer_settings',
     array(
-        'title' => esc_html__('Footer', 'newsphere'),
+        'title' => __('Footer', 'newsphere'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
