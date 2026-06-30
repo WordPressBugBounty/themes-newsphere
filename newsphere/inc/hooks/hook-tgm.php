@@ -40,6 +40,15 @@ if ( ! function_exists( 'newsphere_recommended_plugins' ) ) :
                 'name'     => esc_html__( 'Free Live Chat using 3CX', 'newsphere' ),
                 'slug'     => 'wp-live-chat-support',
                 'required' => false,
+            ),array(
+                'name'     => esc_html__( 'AF Translate', 'newsphere' ),
+                'slug'     => 'af-translate',
+                'required' => false,
+            ),
+            array(
+                'name'     => esc_html__( 'AF Companion', 'newsphere' ),
+                'slug'     => 'af-companion',
+                'required' => false,
             )
 
         );
