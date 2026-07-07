@@ -7,7 +7,7 @@ Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 7.0
 Description: Newsphere is a perfect news and magazine responsive WordPress theme that lets you write articles and blog posts with ease. Create a great news website the help of live customizer options and custom widgets, you can design your website as you like and preview the changes live. It is compatible with the Gutenberg and RTL along with WooCommerce plugin which helps you to integrate an online business with our newspaper template. As it includes many useful features that require to build an awesome looking newsportal, the theme is perfect for blogging and excellent for a news, newspaper, magazine, publishing or review site. The theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are number of demos available in this theme so choose the one you like and start to build a website. See our demos: https://afthemes.com/products/newsphere/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ and Docs: https://docs.afthemes.com/newsphere/
-Version: 4.6.2
+Version: 4.6.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: newsphere
@@ -106,10 +106,6 @@ a {
 a:active,
 a:hover {
     outline: 0;
-}
-
-a:focus-within {
-    outline: 1px dotted;
 }
 
 abbr[title] {
@@ -678,13 +674,8 @@ a:hover, a:focus, a:active {
     text-decoration: none;
 }
 
-a:focus {
+a:focus-visible {
     outline: 1px dotted;
-}
-
-a:hover, a:active {
-    outline: 0;
-    text-decoration: none;
 }
 
 /*--------------------------------------------------------------
@@ -3125,7 +3116,6 @@ footer .widget.newsphere_author_info_widget .container-wrapper{
     margin: 0;
 }
 .aft-trending-latest-popular .nav-tabs>li>a:focus-within{
-    outline: 1px dotted;
     background-color: #ffbf3f;
 }
 .aft-trending-latest-popular .nav-tabs>li>a.active:hover,
