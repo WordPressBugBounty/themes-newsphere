@@ -387,7 +387,7 @@ if (!class_exists('AF_themes_info')) {
       wp_enqueue_script(
         'aftheme-dashboard', // Handle.
         get_template_directory_uri() . '/admin-dashboard/dist/admin_dashboard.build.js',
-        array('react', 'react-dom', 'wp-api-fetch', 'wp-element'), // Dependencies, defined above.
+        array('react', 'react-dom', 'wp-api-fetch', 'wp-element', 'wp-i18n'), // Added 'wp-i18n'
         '1.0.0',
         true
       );
@@ -446,6 +446,27 @@ if (!class_exists('AF_themes_info')) {
         'activate_btn' => __('Activate', 'newsphere'),
         'installed_btn' => __('Activated', 'newsphere')
       ));
+
+      // 1. Core Dashboard React App
+      wp_set_script_translations(
+        'aftheme-dashboard',
+        'newsphere',
+        get_template_directory() . '/languages' // <-- Tells WP where to find source hashes
+      );
+
+      // 2. Plugin Installer
+      wp_set_script_translations(
+        'plugin-installer',
+        'newsphere',
+        get_template_directory() . '/languages'
+      );
+
+      // 3. TemplateSpare Installer
+      wp_set_script_translations(
+        'templatespare-installer',
+        'newsphere',
+        get_template_directory() . '/languages'
+      );
     }
 
     function newsphere_get_latest_changelog()
